@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+<h1>Tools</h1>
+<div class="jumbotron jum">
+    <h3>All the tools developed by the team to make our jobs more efficient</h3>
+
+    <ul>
+        <li><a href="https://rcirogers-my.sharepoint.com/:f:/g/personal/jorge_bejarano_rci_rogers_ca/Er9OFmm9lS5OkkLMJctTBn0BH06VlfTOcTrXeQSfmapMLQ?e=rmAqFl">Capacity Reporting Tool Automation(Offline Version) - Windows only - V1 - 06/29/2022</a></li>
+        <li><a href="https://rcirogers-my.sharepoint.com/:w:/g/personal/jorge_bejarano_rci_rogers_ca/ETBDgm7LlGFCm7VXe6xWI5wBgP34_E3b9hklqirQb9FxOA?e=dmZsQe">Instructions</a></li>
+        </ul>
+    <ul>
+        <li>Node Checker - coming soon</li>
+        </ul>
+</div>
+<div>
+    <p>TESTING AREA</p>
+    <button id="test">TEST BOT CALL</button>
+</div>
+<style>
+    body{
+        background-color:rgb(255, 255, 255); 
+        font-family: Verdana,sans-serif;
+    }
+  
+    .head{
+        text-align: center;
+        background-color: rgba(221, 210, 205, 0.945);
+        margin-left: 60px;
+        margin-right: 60px;
+        opacity: 90%;
+        font-weight: bold;
+    }
+    h3,h4{
+      padding-left: 30px; 
+      margin-top: 30px; 
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    p{
+        text-align: justify;
+        padding-left: 30px; 
+    }
+    .jum{
+    padding-left: 50px; 
+    padding-right:50px;  
+    margin-top:50px;
+    }
+
+    /* footer */
+    .footer {
+        color: #000000ec; 
+    }
+    .footer a { 
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    .footer__link {
+        font-weight: var(--fw-bold);
+    }
+    .footer__link:hover,
+    .social-list__link:hover {
+        opacity: .7;
+    }
+    .footer__link:hover {
+        text-decoration: underline;
+    }
+    </style>
+    <script>
+        $('#test').on('click',function(){
+            $.ajax({
+      type: "POST",
+      url: "{{ url_for('EDS.taf') }}",
+      }).done(function( data ) {
+            
+        });
+    })
+    </script>
+{% endblock %}

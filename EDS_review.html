@@ -1,0 +1,207 @@
+<!--Displays the content of the filled form-->
+{% block content %}
+
+  <dl style="font-size:16px; font-family: Verdana,sans-serif;">
+    
+    <div className="row">
+      <dt className=-md->EDS Type : </dt>
+      <dd className=-md->{{ data.eds }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Project Name : </dt>
+      <dd className=-md->{{ data.Project_Name }}</dd>
+    </div>
+  
+    <div className="row">
+      <dt className=-md->Authorized by :</dt>
+      <dd className=-md->{{ data.Project_Manager }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Planner Name :</dt>
+      <dd className=-md->{{ data.Planner_Name }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Team Name : </dt>
+      <dd className=-md->{{ data.Team_Name }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Contributors : </dt>
+      <dd className=-md->{{ data.Contributors }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Supporters : </dt>
+      <dd className=-md->{{ data.Supporters }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Oracle : </dt>
+      <dd className=-md->{{ data.Oracle }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Rpats : </dt>
+      <dd className=-md->{{ data.Rpats }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Project Priority :  </dt>
+      <dd className=-md->{{ data.Project_Priority }}</dd>
+    </div>
+
+
+    <div className="row">
+      <dt className=-md->Status : </dt>
+      <dd className=-md->{{ data.Status_s }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Release Date :</dt>
+      <dd className=-md->{{ data.R_Date }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Target in Service Date :</dt>
+      <dd className=-md->{{ data.TS_Date }}</dd>
+    </div>
+
+
+    <div className="row">
+      <dt className=-md->Revision Number : </dt>
+      <dd className=-md->{{ data.Revision_Number }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Revision Date : </dt>
+      <dd className=-md->{{ data.Revision_Date }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Checked By : </dt>
+      <dd className=-md->{{ data.Checked_By }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->CA Name : </dt>
+      <dd className=-md->{{ data.CA_Name }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->CA Number : </dt>
+      <dd className=-md->{{ data.CA_Number }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Coordinator Name : </dt>
+      <dd className=-md->{{ data.Coordinator_Name }}</dd>
+    </div>
+
+    
+    <div className="row">
+      <dt className=-md->Coordinator Team : </dt>
+      <dd className=-md->{{ data.Coordinator_Team }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Coordinator Number : </dt>
+      <dd className=-md->{{ data.Coordinator_Number }}</dd>
+    </div>
+
+    {%if data.eds == "TPIA - AE Bandwidth Update"%}
+    
+    <div className="row">
+      <dt className=-md->Client :</dt>
+      <dd className=-md->{{ data.client }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Request Number :</dt>
+      <dd className=-md->{{ data.request }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Overview :</dt>
+      <dd className=-md->{{ data.overview }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->CLLI Code :</dt>
+      <dd className=-md->{{ data.cili }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Address :</dt>
+      <dd className=-md->{{ data.address }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Regions Involved :</dt>
+      <dd className=-md->{{ data.region }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Router :</dt>
+      <dd className=-md->{{ data.router }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Platform :</dt>
+      <dd className=-md->{{ data.platform }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->AEID :</dt>
+      <dd className=-md->{{ data.aeid }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Site :</dt>
+      <dd className=-md->{{ data.site }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Port Name : </dt>
+      <dd className=-md->{{ data.port }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->New Port :</dt>
+      <dd className=-md->{{ data.port_new }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Current Bandwidth (MB) :</dt>
+      <dd className=-md->{{ data.old_mb }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->New Bandwidth (MB) :</dt>
+      <dd className=-md->{{ data.new_mb }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->New Bandwidth (GB) :</dt>
+      <dd className=-md->{{ data.new_gig }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Number of Physical Links :</dt>
+      <dd className=-md->{{ data.phys_links }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Dependancy Description :</dt>
+      <dd className=-md->{{ data.dependancy }}</dd>
+    </div>
+    
+    {%endif%} 
+
+
+
+  </dl>
+
+{% endblock %}

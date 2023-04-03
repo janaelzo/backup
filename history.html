@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<h2>History</h2>
+<div class="jumbotron jum">
+<div class="container">
+  <div class="col-md-12">
+    <p>History Filter: <a href="{{url_for('dashboard.all_history')}}">View all</a> / 
+    <a href="{{url_for('dashboard.history')}}">User Only</a></p>
+  </div>
+    <div class="form-group col-md-12">
+      <table class = "table" id="history_table">
+        <thead>
+          <tr>
+            <th>
+              Project Name 
+            </th>
+            <th>
+              Release Date
+            </th>
+            <th>
+              Version
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in rows %}
+          <tr>
+            <td><a href="{{ url_for('dashboard.history_review', id = row.id) }}">{{row["project_name"]}}</a></td>
+            <td>{{row["release_date"]}}</td>
+            <td>{{row["revision"]}}</td>
+          </tr>
+          {% endfor %}
+          <tr id="empty_row">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<style>
+  body{
+    background-color:rgb(255, 255, 255); 
+    font-family: Verdana,sans-serif; 
+    font-size: 15px;
+  }
+  h2{
+    text-align:center; 
+    font-size:32px; 
+    font-family: Verdana,sans-serif; 
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+  }
+  .jum{
+    padding-left: 50px; 
+    padding-right:50px; 
+    padding-bottom: 10px; 
+    margin-top:25px;
+  }
+</style>
+{% endblock %}

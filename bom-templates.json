@@ -1,0 +1,202 @@
+[
+    {
+        "Name": "7210 SAS Sx",
+        "Chasis": "3",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "0"
+            },
+            {
+                "qty": "2",
+                "part_id": "1"
+            },
+            {
+                "qty": "1",
+                "part_id": "2"
+            },
+            {
+                "qty": "2",
+                "part_id": "3"
+            }
+        ]
+    },
+    {
+        "Name": "7360 FX4",
+        "Chasis": "4",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "0"
+            },
+            {
+                "qty": "1",
+                "part_id": "3"
+            },
+            {
+                "qty": "3",
+                "part_id": "4"
+            },
+            {
+                "qty": "3",
+                "part_id": "5"
+            },
+            {
+                "qty": "2",
+                "part_id": "6"
+            },
+            {
+                "qty": "2",
+                "part_id": "7"
+            },
+            {
+                "qty": "1",
+                "part_id": "10"
+            },
+            {
+                "qty": "1",
+                "part_id": "11"
+            }
+        ]
+    },
+    {
+        "Name": "7360 FX8",
+        "Chasis": "4",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "2"
+            },
+            {
+                "qty": "1",
+                "part_id": "3"
+            },
+            {
+                "qty": "3",
+                "part_id": "4"
+            },
+            {
+                "qty": "7",
+                "part_id": "5"
+            },
+            {
+                "qty": "1",
+                "part_id": "10"
+            },
+            {
+                "qty": "1",
+                "part_id": "11"
+            },
+            {
+                "qty": "2",
+                "part_id": "6"
+            },
+            {
+                "qty": "2",
+                "part_id": "7"
+            }
+        ]
+    },
+    {
+        "Name": "7750 SR7",
+        "Chasis": "5",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "0"
+            },
+            {
+                "qty": "1",
+                "part_id": "6"
+            },
+            {
+                "qty": "1",
+                "part_id": "8"
+            },
+            {
+                "qty": "2",
+                "part_id": "9"
+            },
+            {
+                "qty": "2",
+                "part_id": "10"
+            },
+            {
+                "qty": "2",
+                "part_id": "12"
+            },
+            {
+                "qty": "4",
+                "part_id": "13"
+            }
+        ]
+    },
+    {
+        "Name": "Nokia 7750 SR12",
+        "Chasis": "5",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "1"
+            },
+            {
+                "qty": "1",
+                "part_id": "5"
+            },
+            {
+                "qty": "1",
+                "part_id": "7"
+            },
+            {
+                "qty": "2",
+                "part_id": "9"
+            },
+            {
+                "qty": "2",
+                "part_id": "10"
+            },
+            {
+                "qty": "2",
+                "part_id": "12"
+            },
+            {
+                "qty": "4",
+                "part_id": "13"
+            }
+        ]
+    },
+    {
+        "Name": "Nokia 7750 SR12e",
+        "Chasis": "5",
+        "parts": [
+            {
+                "qty": "1",
+                "part_id": "2"
+            },
+            {
+                "qty": "1",
+                "part_id": "4"
+            },
+            {
+                "qty": "1",
+                "part_id": "7"
+            },
+            {
+                "qty": "2",
+                "part_id": "9"
+            },
+            {
+                "qty": "2",
+                "part_id": "10"
+            },
+            {
+                "qty": "2",
+                "part_id": "12"
+            },
+            {
+                "qty": "4",
+                "part_id": "13"
+            }
+        ]
+    }
+]

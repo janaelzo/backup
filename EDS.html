@@ -1,0 +1,850 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+<h2>Engineering Design Specifications</h2>
+
+<!--Displays the EDS form-->
+<div className=ttt>
+  <div className=bbb>
+    <div id = 'review_form_view' className=ooo>
+    <form className=m-group form id = "review_form" method="POST" role="form">
+      <div className="row" style="font-size:16px; font-family: Verdana,sans-serif;">
+      </div>
+    </form>
+    <div className=www>
+      <div className=m-group col-m>
+        <button type="button" id = 'back_button' className= btn-block btn-lg  >Back</button>
+      </div>
+      <div className=m-group col-m>
+        <button type="button" id="submit_button" className= btn-block btn-lg >Generate EDS</button>
+      </div>
+    </div>
+  </div>
+    <form className=m-group form method="POST" id = "EDS_form" role="form">
+      
+      
+
+      <div className="row" style="font-size:16px; font-family: Verdana,sans-serif;">
+
+        
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Project_Name, className=mmm,
+          placeholder='Project Name') }}
+        </div>
+
+        
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Project_Manager, className=mmm,
+            placeholder='Authorized by') }}
+          </div>
+          
+          <div className=m-group col-m>
+            {{ wtf.form_field(form.Planner_Name, className=mmm,
+              placeholder='Planner Name') }}
+            </div>
+            
+            <div className=m-group col-m>
+              {{ wtf.form_field(form.Team_Name, className=mmm, placeholder='Enterprise IP Networks Planning') }}
+            </div>
+            
+            <div className=m-group col-m>
+              {{ wtf.form_field(form.Contributors, className=mmm,
+                placeholder='Contributors') }}
+              </div>
+              
+              <div className=m-group col-m>
+                {{ wtf.form_field(form.Supporters, className=mmm,
+                  placeholder='Supporters') }}
+                </div>
+                
+                <div className=m-group col-m>
+                  {{ wtf.form_field(form.Oracle, className=mmm,
+                    placeholder='Oracle Number') }}
+                  </div>
+                  
+                  
+                  <div className=m-group col-m>
+                    {{ wtf.form_field(form.Rpats, className=mmm,
+                      placeholder='Project Number') }}
+                    </div>
+                    
+                    <div className=m-group col-m>
+                      {{ wtf.form_field(form.Project_Priority, className=mmm,
+                        placeholder='Project Priority') }}
+                      </div>
+                      
+                      
+                      <div className=m-group col-m>
+                        <label for="R_Date">Original Release Date :&emsp;&emsp;&nbsp;&nbsp;</label>
+                        <input type="date" id="R_Date" name="trip-start"
+                        value="yyyy-mm-dd"
+                        min="2021-01-01" max="2038-12-31">
+                      </div>
+                      
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Revision_Number, className=mmm,
+          placeholder='Revision Number') }}
+        </div> 
+        
+        <div className=m-group col-m>
+          <label for="Revision_Date">Revision Date:&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;</label>
+          <input type="date" id="Revision_Date" name="trip-start"
+          value="yyyy-mm-dd"
+          min="2021-01-01" max="2031-12-31">
+        </div>
+        
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Checked_By, className=mmm,
+            placeholder='Checked By') }}
+          </div>
+          
+          <div className=m-group col-m>
+            {{ wtf.form_field(form.CA_Name, className=mmm,
+              placeholder='CA Name') }}
+        </div>
+
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.CA_Number, className=mmm,
+          placeholder='CA Number') }}
+        </div>
+        
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Coordinator_Name, className=mmm,
+            placeholder='Coordinator Name') }}
+        </div>
+
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Coordinator_Team, className=mmm,
+          placeholder='Coordinator Team') }}
+        </div>
+        
+        <div className=m-group col-m>
+          {{ wtf.form_field(form.Coordinator_Number, className=mmm,
+            placeholder='Coordinator Number') }}
+          </div>
+          
+          <div className=m-group col-m>
+            {{ wtf.form_field(form.Status_s, className=mmm,
+              placeholder='Status - Draft') }}
+            </div>
+            
+            
+            <div className=m-group col-m>
+              <label for="TS_Date">Target in Service Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input type="date" id="TS_Date" name="trip-start"
+              value="yyyy-mm-dd"
+              min="2021-01-01" max="2031-12-31">
+            </div>
+            
+            <br><br><br><br><br>
+            
+            <div className=m-group col- col-md-6m>
+              <label for="eds">EDS Type &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+              <select name="eds" id="eds">
+                {% for item in eds %}
+                <option value="{{ item.EIDN }}">{{ item.EDS }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        
+        <!--                      TPIA AE Bandwidth Update                               -->
+        
+        
+        <h4 className=d-heading col-md id=General><br><br>TPIA - AE Bandwidth Update </h4>
+        
+        <div className=m-group col-m id = RouterTPIALDiv>
+          <label for="router">Router &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+          <select name="router" id="router">
+            {% for item in router %}
+            <option value="{{ item.NIDN }}">{{ item.RouterName }}</option>
+            {% endfor %}
+          </select>
+        </div>       
+        
+        <div className=m-group col-m id = ClientTPIALDiv>
+          <label for="client">Client &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+          <select name="client" id="client">
+            {% for item in client %}
+            <option value="{{ item.SIDN }}">{{ item.NAME }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        
+        <div className=m-group col-m id = RequestTPIALDiv>
+          {{ wtf.form_field(form.Request , className=mmm,
+            placeholder=' Example: CR20230202B-1') }}
+        </div>
+          
+        <div className=m-group col-m id = OverviewTPIALDiv>
+          {{ wtf.form_field(form.Overview , className=mmm,
+            placeholder='Overview - Technical Section') }}
+        </div>
+            
+      <div className=m-group col-m id = RegionsTPIALDiv>
+        <label for="regions">Region &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <select name="regions" id="regions">
+          {% for item in regions %}
+          <option value="{{ item.NIDN }}">{{ item.Region }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div className=m-group col-m id = SiteTPIALDiv>
+        <label for="site">Site &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <select name="site" id="site">
+          {% for item in site %}
+          <option value="{{ item.NIDN }}">{{ item.Site }}</option>
+          {% endfor %}
+        </select>
+        </div>
+      
+      <div className=m-group col-m id = AddressTPIALDiv>
+        <label for="address">Address &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <select name="address" id="address">
+          {% for item in address %}
+          <option value="{{ item.NIDN }}">{{ item.Address }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div className=m-group col-m id = CILITPIALDiv>
+        <label for="cili">CILI &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <select name="cili" id="cili">
+          {% for item in cili %}
+          <option value="{{ item.NIDN }}">{{ item.CILICode }}</option>
+          {% endfor %}
+      </select>
+      </div>
+
+        <div className=m-group col-m id = PlatformTPIALDiv>
+          <label for="platform">Platform &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+          <select name="platform" id="platform">
+            {% for item in platform %}
+            <option value="{{ item.NIDN }}">{{ item.Platform }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+      <div className=m-group col-m id = AEIDTPIALDiv>
+        <label for="aeid">AEID &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <select name="aeid" id="aeid">
+          {% for item in aeid %}
+          <option value="{{ item.AIDN }}">{{ item.AE_Bundle }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div className=m-group col-m id = PortTPIALDiv>
+        <label for="port">Port &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+        <div id="port-list"></div>
+      </div>
+
+        <div className=m-group col-m id = NewPortTPIALDiv>
+          {{ wtf.form_field(form.Port_New , className=mmm,
+          placeholder='New Port') }}
+        </div>
+
+        <div className=m-group col-m id = OldMBTPIALDiv>
+          {{ wtf.form_field(form.Old_MB , className=mmm,
+          placeholder='Form: "gigabites" GB X "megabites" MB') }}
+        </div>
+
+        <div className=m-group col-m id = NewMBTPIALDiv>
+          {{ wtf.form_field(form.New_MB , className=mmm,
+          placeholder='Form: "gigabites" GB X "megabites" MB') }}
+        </div>
+
+        <div className=m-group col-m id = NewGigTPIALDiv>
+          {{ wtf.form_field(form.New_Gig , className=mmm,
+          placeholder='Form: "gigabites" GB X "megabites" MB') }}
+        </div>
+
+        <div className=m-group col-m id = PhysLinksTPIALDiv>
+          {{ wtf.form_field(form.Phys_Links , className=mmm,
+          placeholder='Number of Physical Links') }}
+        </div>
+
+        <div className=m-group col-m id = DependancyTPIALDiv>
+          {{ wtf.form_field(form.Dependancy , className=mmm,
+          placeholder='Description of Depandancy') }}
+        </div>
+
+        <div className=m-group col-m id="reviewFieldDiv">
+          <button type="button" id="review_button" className= btn-block btn-lg >Review</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<style>
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(71, 0, 0);
+  }
+
+  h3 {
+    text-align: center;
+    color: rgb(24, 0, 0);
+    text-decoration: underline
+  }
+
+  h4 {
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+  }
+
+  option {
+    margin-right: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+
+  hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popuptext .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+</style>
+     
+
+<script>
+  ///////////////////////////////////////////Global Vars/////////////////////////////////////////////////////////////
+var DYNAMIC_PARTS;
+  ///////////////////////////////////////////Hiding and showing Fields (MDA)//////////////////////////////////////////////////
+
+  // note: will delete vals 2-8 after 
+  $("#eds").change(function() {
+
+  if ($(this).val() == 0) { //Before Choosing an option
+    $('#reviewFieldDiv').hide();
+
+    //TPIA Update Fields
+    $('#ClientTPIALDiv').hide();
+    $('#RequestTPIALDiv').hide();
+    $('#OverviewTPIALDiv').hide();
+    $('#CILITPIALDiv').hide();
+    $('#AddressTPIALDiv').hide();
+    $('#RouterTPIALDiv').hide();
+    $('#PlatformTPIALDiv').hide();
+    $('#RegionsTPIALDiv').hide();
+    $('#AEIDTPIALDiv').hide();
+    $('#SiteTPIALDiv').hide();
+    $('#PortTPIALDiv').hide();
+    $('#NewPortTPIALDiv').hide();
+    $('#OldMBTPIALDiv').hide();
+    $('#NewMBTPIALDiv').hide();
+    $('#NewGigTPIALDiv').hide();
+    $('#PhysLinksTPIALDiv').hide();
+    $('#DependancyTPIALDiv').hide();
+  }
+  else if ($(this).val() == 1 ) { 
+    //TPIA Fields
+    $('#ClientTPIALDiv').show();
+    $('#RequestTPIALDiv').show();
+    $('#OverviewTPIALDiv').show();
+    $('#CILITPIALDiv').show();
+    $('#AddressTPIALDiv').show();
+    $('#RouterTPIALDiv').show();
+    $('#PlatformTPIALDiv').show();
+    $('#AEIDTPIALDiv').show();
+    $('#RegionsTPIALDiv').show();
+    $('#SiteTPIALDiv').show();
+    $('#PortTPIALDiv').show();
+    $('#NewPortTPIALDiv').show();
+    $('#OldMBTPIALDiv').show();
+    $('#NewMBTPIALDiv').show();
+    $('#NewGigTPIALDiv').show();
+    $('#PhysLinksTPIALDiv').show();
+    $('#DependancyTPIALDiv').show();
+    $('#reviewFieldDiv').show();
+  } 
+
+  });
+  $("#eds").trigger("change");
+
+
+
+  //Link between Client and AE ID - TPIA//
+  document.getElementById("client").onchange = function () {
+    var client_id = this.value; 
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'client_id': client_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_aeid_lists') }}",
+      success: function (data) {
+        console.log(data['aeid'])
+        var aeid = data['aeid']
+        $('#aeid').empty();
+        for (var i = 0; i < aeid.length; i++) {
+          $('#aeid').append('<option value = "' + aeid[i]['AIDN'] + '">' + aeid[i]['AE_Bundle'] + '</option>');
+        }
+        $('#aeid>option:eq(0)').attr('selected', true);
+        $('#aeid').trigger('change'); 
+      }
+    });
+  }
+
+    //Link between AE ID and Ports - TPIA//
+  document.getElementById("aeid").onchange = function () {
+    var aeid_id = this.value; 
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'aeid_id': aeid_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_port_lists') }}",
+      success: function (data) {
+        var ports = data['port'];
+        var portList = "";
+        for (var i = 0; i < ports.length; i++) {
+          portList += ports[i]['Port'] + "<br>";
+        }
+        document.getElementById("port-list").innerHTML = portList;
+      }
+    });
+  }
+
+  //////////////////////////Links for Router Related Info - TPIA/////////////////////////////
+
+  document.getElementById("router").onchange = function () {
+    var router_id = this.value; 
+    //Link between Client and Router - TPIA//
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_client_lists') }}",
+      success: function (data) {
+        console.log(data['client'])
+        var client = data['client']
+        $('#client').empty();
+        for (var i = 0; i < client.length; i++) {
+          $('#client').append('<option value = "' + client[i]['SIDN'] + '">' + client[i]['NAME'] + '</option>');
+        }
+        $('#client>option:eq(0)').attr('selected', true);
+        $('#client').trigger('change'); 
+      }
+    });
+
+    ////Link between Region and Router - TPIA//
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_region_lists') }}",
+      success: function (data) {
+        console.log(data['regions'])
+        var region = data['regions']
+        $('#regions').empty();
+        for (var i = 0; i < region.length; i++) {
+          $('#regions').append('<option value = "' + region[i]['NIDN'] + '">' + region[i]['Region'] + '</option>');
+        }
+        $('#regions>option:eq(0)').attr('selected', true);
+        $('#regions').trigger('change');
+      }
+    });
+
+    ////Link between Site and Router - TPIA//
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_site_lists') }}",
+      success: function (data) {
+        console.log(data['site'])
+        var site = data['site']
+        $('#site').empty();
+        for (var i = 0; i < site.length; i++) {
+          $('#site').append('<option value = "' + site[i]['NIDN'] + '">' + site[i]['Site'] + '</option>');
+        }
+        $('#site>option:eq(0)').attr('selected', true);
+        $('#site').trigger('change');
+      }
+    });
+
+    
+    //Link between Address and Router - TPIA//
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_address_lists') }}",
+      success: function (data) {
+        console.log(data['address'])
+        var address = data['address']
+        $('#address').empty();
+        for (var i = 0; i < address.length; i++) {
+          $('#address').append('<option value = "' + address[i]['NIDN'] + '">' + address[i]['Address'] + '</option>');
+        }
+        $('#address>option:eq(0)').attr('selected', true);
+        $('#address').trigger('change');
+      }
+    });
+    
+    ////Link between CILI and Router - TPIA//
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_cili_lists') }}",
+      success: function (data) {
+        console.log(data['cili'])
+        var cili = data['cili']
+        $('#cili').empty();
+        for (var i = 0; i < cili.length; i++) {
+          $('#cili').append('<option value = "' + cili[i]['NIDN'] + '">' + cili[i]['CILICode'] + '</option>');
+        }
+        $('#cili>option:eq(0)').attr('selected', true);
+        $('#cili').trigger('change');
+      }
+    });
+
+  
+    ///Link between Platform and Router - TPIA//
+
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'router_id': router_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_platform_lists') }}",
+      success: function (data) {
+        console.log(data['platform'])
+        var platform = data['platform']
+        $('#platform').empty();
+        for (var i = 0; i < platform.length; i++) {
+          $('#platform').append('<option value = "' + platform[i]['NIDN'] + '">' + platform[i]['Platform'] + '</option>');
+        }
+        $('#platform>option:eq(0)').attr('selected', true);
+        $('#platform').trigger('change');
+      }
+    });    
+
+  }
+
+  ///////////////////////////////////////////Submit Button//////////////////////////////////////////////////
+
+  $("#submit_button").on("click",function(){
+    /////////////////////download link/////////////////////////////////////////////////
+    
+    var show_file =  function(blob){
+      const data =  window.URL.createObjectURL(blob);
+      var link = document.createElement('a');
+      link.href = data;
+      link.download = document.getElementById("Rpats").value + ' - ' + document.getElementById("Project_Name").value + '.docx';
+      link.click();
+      setTimeout(function(){
+        window.URL.revokeObjectURL(data);
+      }, 100)
+    }
+
+      ////////////////// Standard //////////////
+
+    var project_name = document.getElementById("Project_Name").value
+    var project_manager = document.getElementById("Project_Manager").value
+    var planner_name = document.getElementById("Planner_Name").value
+    var team_name = document.getElementById("Team_Name").value
+    var contributors = document.getElementById("Contributors").value
+    var supporters = document.getElementById("Supporters").value
+    var oracle = document.getElementById("Oracle").value
+    var rpats = document.getElementById("Rpats").value
+    var ts_date = document.getElementById("TS_Date").value
+    var r_date = document.getElementById("R_Date").value
+    var project_priority = document.getElementById("Project_Priority").value
+    var status_s = document.getElementById("Status_s").value
+    var revision_num = document.getElementById("Revision_Number").value
+    var revision_date = document.getElementById("Revision_Date").value
+    var checked_by = document.getElementById("Checked_By").value
+    var ca_name = document.getElementById("CA_Name").value
+    var ca_number = document.getElementById("CA_Number").value
+    var coord_name = document.getElementById("Coordinator_Name").value
+    var coord_team = document.getElementById("Coordinator_Team").value
+    var coord_number = document.getElementById("Coordinator_Number").value
+    var eds_object = document.getElementById("eds");
+    var eds_value = eds_object.options[eds_object.selectedIndex].text;
+    
+    ////////////////// Install TPIA Update  //////////////
+    var client_object = document.getElementById("client");
+    var client_value = client_object.options[client_object.selectedIndex].text;
+    var request_code = document.getElementById("Request").value
+    var overview = document.getElementById("Overview").value
+    var cili_object = document.getElementById("cili");
+    var cili_value = cili_object.options[cili_object.selectedIndex].text;
+    var address_object = document.getElementById("address");
+    var address_value = address_object.options[address_object.selectedIndex].text;
+    var regions_object = document.getElementById("regions");
+    var regions_value = regions_object.options[regions_object.selectedIndex].text;
+    var site_object = document.getElementById("site");
+    var site_value = site_object.options[site_object.selectedIndex].text;
+    var router_object = document.getElementById("router");
+    var router_value = router_object.options[router_object.selectedIndex].text;
+    var platform_object = document.getElementById("platform");
+    var platform_value = platform_object.options[platform_object.selectedIndex].text;
+    var aeid_object = document.getElementById("aeid");
+    var aeid_value = aeid_object.options[aeid_object.selectedIndex].text;
+    // var port_object = document.getElementById("port");
+    // var port_value = port_object.options[port_object.selectedIndex].text;
+    var port_new = document.getElementById("Port_New").value
+    var old_mb = document.getElementById("Old_MB").value
+    var new_mb = document.getElementById("New_MB").value
+    var new_gig = document.getElementById("New_Gig").value
+    var phys_links = document.getElementById("Phys_Links").value
+    var dependancy = document.getElementById("Dependancy").value
+  
+
+
+
+
+    var xhr = new XMLHttpRequest();
+    $.ajax({
+      xhrFields : {
+        responseType : 'blob'
+      },
+      type: 'POST',
+      data: JSON.stringify({
+         
+        'Project_Name': project_name , 
+        'Project_Manager': project_manager,
+        'Planner_Name' : planner_name,
+        'Team_Name' : team_name,
+        'Contributors' : contributors,
+        'Supporters' : supporters,
+        'Oracle' : oracle,
+        'Rpats' : rpats,
+        'TS_Date' : ts_date,
+        'R_Date' : r_date,
+        'Project_Priority' : project_priority,
+        'Status_s': status_s,
+        'Revision_Number' : revision_num,
+        'Revision_Date' : revision_date,
+        
+        'Checked_By' : checked_by, 
+        'CA_Name': ca_name,
+        'CA_Number' : ca_number,
+        'Coordinator_Name' : coord_name,
+        'Coordinator_Team' : coord_team,
+        'Coordinator_Number' :coord_number,
+        'eds' : eds_value,
+        
+        // TPIA Update section
+        'client' : client_value,
+        'Request' : request_code,
+        'Overview' : overview,
+        'router' : router_value,
+        'cili' : cili_value,
+        'address' : address_value,
+        'regions' : regions_value,
+        'site' : site_value,
+        'platform' : platform_value,
+        'aeid' : aeid_value,
+        // 'port' : port_value,
+        'Port_New' : port_new,
+        'Old_MB' : old_mb,
+        'New_MB' : new_mb,
+        'New_Gig' : new_gig,
+        'Phys_Links' : phys_links,
+        'Dependancy' : dependancy,
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.EDS_submit') }}",
+    }).done(function(blob){
+        show_file(blob)
+    })
+  })
+  ///////////////////////////////////////Review Button//////////////////////////////////////////////////
+
+  $("#review_button").on("click",function(){
+    var project_name = document.getElementById("Project_Name").value
+    var project_manager = document.getElementById("Project_Manager").value
+    var planner_name = document.getElementById("Planner_Name").value
+    var team_name = document.getElementById("Team_Name").value
+    var contributors = document.getElementById("Contributors").value
+    var supporters = document.getElementById("Supporters").value
+    var oracle = document.getElementById("Oracle").value
+    var rpats = document.getElementById("Rpats").value
+    var ts_date = document.getElementById("TS_Date").value
+    var r_date = document.getElementById("R_Date").value
+    var project_priority = document.getElementById("Project_Priority").value
+    var status_s = document.getElementById("Status_s").value
+    var revision_num = document.getElementById("Revision_Number").value
+    var revision_date = document.getElementById("Revision_Date").value
+    var checked_by= document.getElementById("Checked_By").value
+    var ca_name= document.getElementById("CA_Name").value
+    var ca_number= document.getElementById("CA_Number").value
+    var coord_name= document.getElementById("Coordinator_Name").value
+    var coord_team= document.getElementById("Coordinator_Team").value
+    var coord_number= document.getElementById("Coordinator_Number").value
+
+    
+    var eds_object = document.getElementById("eds");
+    var eds_value = eds_object.options[eds_object.selectedIndex].text;
+    
+    // ////////////////// Install TPIA Update  //////////////
+    var client_object = document.getElementById("client");
+    var client_value = client_object.options[client_object.selectedIndex].text;
+    var request_code = document.getElementById("Request").value
+    var overview = document.getElementById("Overview").value
+    var cili_object = document.getElementById("cili");
+    var cili_value = cili_object.options[cili_object.selectedIndex].text;
+    var address_object = document.getElementById("address");
+    var address_value = address_object.options[address_object.selectedIndex].text;
+    var regions_object = document.getElementById("regions");
+    var regions_value = regions_object.options[regions_object.selectedIndex].text;
+    var site_object = document.getElementById("site");
+    var site_value = site_object.options[site_object.selectedIndex].text;
+    var router_object = document.getElementById("router");
+    var router_value = router_object.options[router_object.selectedIndex].text;
+    var platform_object = document.getElementById("platform");
+    var platform_value = platform_object.options[platform_object.selectedIndex].text;
+    var aeid_object = document.getElementById("aeid");
+    var aeid_value = aeid_object.options[aeid_object.selectedIndex].text;
+    // var port_object = document.getElementById("port");
+    // var port_value = port_object.options[port_object.selectedIndex].text;
+    var port_new = document.getElementById("Port_New").value
+    var old_mb = document.getElementById("Old_MB").value
+    var new_mb = document.getElementById("New_MB").value
+    var new_gig = document.getElementById("New_Gig").value
+    var phys_links = document.getElementById("Phys_Links").value
+    var dependancy = document.getElementById("Dependancy").value
+
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'Project_Name': project_name , 
+        'Project_Manager': project_manager,
+        'Planner_Name' : planner_name,
+        'Team_Name' : team_name,
+        'Contributors' : contributors,
+        'Supporters' : supporters,
+        'Oracle' : oracle,
+        'Rpats' : rpats,
+        'TS_Date' : ts_date,
+        'R_Date' : r_date,
+        'Project_Priority' : project_priority,
+        'Status_s' : status_s,
+        'Revision_Number' : revision_num,
+        'Revision_Date' : revision_date,
+        'Checked_By' : checked_by,
+        'CA_Name' : ca_name,
+        'CA_Number' : ca_number,
+        'Coordinator_Name' : coord_name,
+        'Coordinator_Team' : coord_team,
+        'Coordinator_Number' : coord_number,
+
+        
+        // TPIA Update section
+        'client' : client_value,
+        'Request' : request_code,
+        'Overview' : overview,
+        'router' : router_value,
+        'cili' : cili_value,
+        'address' : address_value,
+        'regions' : regions_value,
+        'site' : site_value,
+        'platform' : platform_value,
+        'aeid' : aeid_value,
+        // 'port' : port_value,
+        'Port_New' : port_new,
+        'Old_MB' : old_mb,
+        'New_MB' : new_mb,
+        'New_Gig' : new_gig,
+        'Phys_Links' : phys_links,
+        'Dependancy' : dependancy,
+        
+        'eds' : eds_value,
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.EDS_review') }}",
+      success: function (data) {
+        $('#review_form').html(data)
+        $('#review_form_view').removeClass('d-none')
+        $('#EDS_form').addClass('d-none')
+      }
+    });
+  });
+
+  //////////////////////////////////Back Button///////////////////////////////////////////////////////
+
+  $('#back_button').on('click', function(){
+    $('#EDS_form').removeClass('d-none')
+    $('#review_form_view').addClass('d-none')
+    $('#review_form').html('')
+  })
+
+  $(document).ready(function () {
+    $('#eds>option:eq(0)').attr('selected', true);
+    $('#eds').trigger('change');
+    var cardIndex = 0;
+  })
+</script>
+{% endblock %}

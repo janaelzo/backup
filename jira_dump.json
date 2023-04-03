@@ -1,0 +1,2690 @@
+[
+    {
+        "name": "NDOC-20292",
+        "rpats": "X222856",
+        "summary": "This document represents the installation and provisioning details of an Alcatel-Lucent 7210 SAS SX in Satellite mode at 800 Rue de la Gaucheti\u00e8re O Montr\u00e9al, QC H5A 1K8 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-09-16T11:47:01.000-0400",
+        "info": [
+            {
+                "description": "This document represents the installation and provisioning details of an Alcatel-Lucent 7210 SAS SX in Satellite mode at 800 Rue de la Gaucheti\u00e8re O Montr\u00e9al, QC H5A 1K8",
+                "updated": "2022-09-16T11:51:14.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-20157",
+        "rpats": "X222854",
+        "summary": "Add ALU 7210 SAS SX Satellite at MGW01.CMBGONI - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-09-15T11:32:12.000-0400",
+        "info": [
+            {
+                "description": "This document represents the installation and provisioning details of an Alcatel-Lucent 7210 SAS SX in Satellite mode at 1500 Bishop St N Cambridge, ON N1R 7N6.",
+                "updated": "2022-09-15T11:39:24.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-19662",
+        "rpats": "X222797 ",
+        "summary": "WPN-NORCAT vSecGW IPSec Remote OAM Connectivity - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-09-09T12:07:25.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-09-14T13:38:24.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-19341",
+        "rpats": "X222781",
+        "summary": "X222781 - Uplink Capacity Upgrade and 100G card add at 57 Cutten Place Guelph, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-09-01T18:45:06.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add an additional 30GE link between AGW07.GLPH and DGW01.GLPH and DGW02.GLPH. This plan will also add IOM4-e card to slot 6 on AGW07.GLPH for COR request 2110-9880C.",
+                "updated": "2022-09-20T17:30:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-18954",
+        "rpats": "X212450.06",
+        "summary": "X212450.06 Sprint 3602 Router and Switch decommission in Vancouver - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-30T11:14:29.000-0400",
+        "info": [
+            {
+                "description": "Sprint 3602 is a legacy network that will be decommissioned. This EDS covers the shutdown of all remaining network links on the 3602 nodes (Vancouver), as well as the physical decommissioning of the routers and switches.",
+                "updated": "2022-08-30T11:18:49.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-18801",
+        "rpats": "X222747",
+        "summary": "X222747 - EGW 7360 SOFTWARE UPGRADE TO R6.2.04sc - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-26T16:45:56.000-0400",
+        "info": [
+            {
+                "description": "This document describes the instructions for the upgrade of EGW from OS version 6.1.02c to R6.2.04sc. \r\nThe Software upgrade will be required on the R4B EGWs in the network to support new cards FWLT-c and Felt-b cards.\r\nIt also provides details for the addition of two additional commands through cli after the upgrade process is completed, and a reboot of the node. \r\n",
+                "updated": "2022-08-26T16:49:02.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-18548",
+        "rpats": "X221375.03 ",
+        "summary": "X221375.03  - Nokia 7210 SAS SX Install at AGW05.BLOOR and Customer Migration - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-23T16:04:25.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-08-23T16:07:43.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-18505",
+        "rpats": "X212450.05",
+        "summary": "X212450.05 Sprint 3602 Router and Switch decommission in the Eastern Region - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-22T16:28:39.000-0400",
+        "info": [
+            {
+                "description": "The EDS provides the list of network interfaces that are required to be shutdown. The EDS is to describe the detail steps to shut down of all 3602 routers/switches. This involves shutting down all remaining network links, as well as removing all configuration (factory default) and powering down the device.",
+                "updated": "2022-08-22T16:32:11.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-18059",
+        "rpats": "SOW#143",
+        "summary": "SOW 143 to support new Cortina ONT (XS-010X-Q - 3FE49331AA) via R4B Service Portal - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-16T13:56:53.000-0400",
+        "info": [
+            {
+                "description": "SOW 143 to support new Cortina ONT (XS-010X-Q - 3FE49331AA) via R4B Service Portal",
+                "updated": "2022-08-31T20:04:57.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-17981",
+        "rpats": "X222661",
+        "summary": "X222661 - Non-Standard Speed change - THUBAYT021 - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-12T17:54:49.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this plan is to add a 6th 10G port into LAG 101 on agw07.front for customer TBAY Tel and upgrade the RDI service (THUBAYT021) from \"15G burstable to 30G\" to \"15G burstable to 60G\".",
+                "updated": "2022-08-12T17:56:38.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-17979",
+        "rpats": "X222660",
+        "summary": "X222660 - Non-Standard SIP Static route - Scotia Lab - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-12T17:41:04.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this plan is to add static route entries for SIP services, SCOLABS001 and SCOLABS002 for the Bank of Nova Scotia Labs.",
+                "updated": "2022-08-12T17:43:11.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-17969",
+        "rpats": "X222659",
+        "summary": "X222659- Card Swap at 151 Front Street West - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-12T17:00:47.000-0400",
+        "info": [
+            {
+                "description": "Due to 10G port requirement on AGW06.FRONT, this plan is to replace IMM5-PT card with IOM4-E card on slot 4 of the AGW06.FRONT.  This engineering plan provides the details of installation/rearrangement/configuration required for swapping the cards.",
+                "updated": "2022-08-30T09:56:09.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-17927",
+        "rpats": "X222653.01 ",
+        "summary": "X222653.01 Add routing redistribute limits to IGP for all vDGW routers - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-08-12T13:54:32.000-0400",
+        "info": [
+            {
+                "description": "X222653.01 Add routing redistribute limits to IGP for all vDGW routers",
+                "updated": "2022-08-12T13:56:17.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16753",
+        "rpats": "X221847 ",
+        "summary": "X221847 - Non-Standard RDI POLICY - TransUnion - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-27T10:27:23.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this plan is to modify customer import BGP policy to include Rogers owned IP in existing dynamic policy.",
+                "updated": "2022-07-27T10:30:29.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16747",
+        "rpats": "X222497 ",
+        "summary": "X222497 -  Nokia 7750 and 7210 Install at 260 Saratoga Road, Kincardine, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-27T09:40:26.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR7 and Nokia 7210 SAS SX  at 260 Saratoga Road, Kincardine, ON.",
+                "updated": "2022-07-27T09:43:27.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16681",
+        "rpats": "X222463",
+        "summary": "X222463 EON - ALU 7210 SAS SX Satellite and 10G card Install at AGW05.WHSFON14 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-26T16:47:34.000-0400",
+        "info": [
+            {
+                "description": "*This Engineering Design Specification will cover the installation and configuration of two new* *Nokia 7750 Module Card - MDA-e - 7750 SR 10-port 10GE SFP+ MDA-e* *along with an Alcatel-Lucent 7210 SAS SX Satellite.*",
+                "updated": "2022-08-25T13:10:09.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16568",
+        "rpats": "X222382",
+        "summary": "X222382 - BELL 2x10G LAG NNI at 475 Richmond Rd Ottawa, ON - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-25T16:22:12.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides details for EON ENNI to BELL through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    475 Richmond RdOttawa, ON\r\n\r\nBELL:  475 Richmond RdOttawa, ON\r\n",
+                "updated": "2022-07-25T16:25:20.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16352",
+        "rpats": "X222474.01",
+        "summary": "X222474.01 ATRIA KITCHENER MEMORY ISSUE - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-22T09:41:01.000-0400",
+        "info": [
+            {
+                "description": "X222474.01 ATRIA KITCHENER MEMORY ISSUE",
+                "updated": "2022-07-22T09:43:34.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-16008",
+        "rpats": "X222429",
+        "summary": "X222429 EON - XGSPON Card Addition to EGW01.QCMTL - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-19T11:06:27.000-0400",
+        "info": [
+            {
+                "description": "X222429 EON - XGSPON Card Addition to EGW01.QCMTL",
+                "updated": "2022-08-19T13:22:47.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-15977",
+        "rpats": "X222339 ",
+        "summary": "X222339 WPN-LAB vSecGW IPSec Remote OAM Connectivity - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-18T16:12:34.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-07-18T16:16:05.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-15876",
+        "rpats": "X222388",
+        "summary": "X222388 Legacy Non-OLG LNS Decommission - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-07-15T14:56:32.000-0400",
+        "info": [
+            {
+                "description": "X222388 Legacy Non-OLG LNS Decommission",
+                "updated": "2022-09-06T09:14:26.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-15788",
+        "rpats": "X222376",
+        "summary": "X222376 - Upgrade of ROGSHAR644 RDI from 15G to 20G at 234 Newkirk Rd Richmond Hill, ON L4C 3G7  - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Draft",
+        "created": "2022-07-13T22:58:52.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan aims to upgrade the ROGSHAR644 RDI located at *234 Newkirk Rd Richmond Hill, ON L4C 3G7* from a 15G RDI to a 20G RDI.",
+                "updated": "2022-07-14T09:31:40.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14993",
+        "rpats": "X222031",
+        "summary": "X222031 - Bell NNI Augmentation at VANCOUVER - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-28T16:13:55.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan is to augment the existing BELL NNI, to change the standby port from  4/1/5 to 6/1/4. This is to ensure that the two ports in the LAG are on different cards. Currently, both ports in the LAG NNI are on the same card.\r\n\r\nVANCOUVER Location:\r\n\r\nRogers:    301 Industrial Ave Vancouver, BC V6A 4E6\r\n\r\nBELL:  301 Industrial Ave Vancouver, BC V6A 4E6\r\n",
+                "updated": "2022-06-28T16:17:42.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14375",
+        "rpats": "X221511",
+        "summary": "X221511 Cable iMPLS node Shutdown and Decommision - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-20T09:15:03.000-0400",
+        "info": [
+            {
+                "description": "X221511 Cable iMPLS node Shutdown and Decommision",
+                "updated": "2022-07-20T09:32:02.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14337",
+        "rpats": "X221953",
+        "summary": "X221953 - Bell NNI Augmentation at CALGARY - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-17T16:58:21.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan is to augment the existing BELL NNI, to change the standby port from  4/1/5 to 5/1/4. This is to ensure that the two ports in the LAG are on different cards. Currently, both ports in the LAG NNI are on the same card.",
+                "updated": "2022-06-28T12:58:14.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14327",
+        "rpats": "X221946",
+        "summary": "X221946 - NOKIA 7210 SAS Sx Satellite Install at 8200 Dixie Rd Brampton, ON (EON DR) - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-17T16:31:43.000-0400",
+        "info": [
+            {
+                "description": "This document represents the installation and provisioning details of Nokia 7210 SAS Sx 48 port and 64 Port in Satellite mode at 8200 Dixie Rd Brampton on the EON DR routers agw05.eondr and agw06.eondr.",
+                "updated": "2022-09-20T17:23:23.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14228",
+        "rpats": "X221986.01 ",
+        "summary": "X221986.01 Upgrade from 6.5.3 to IOS XR 7.1.3 for OLG HQ CEs  - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-16T15:16:29.000-0400",
+        "info": [
+            {
+                "description": "X221986.01 Upgrade from 6.5.3 to IOS XR 7.1.3 for OLG HQ CEs ",
+                "updated": "2022-06-16T15:17:36.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-14226",
+        "rpats": "X221985.01",
+        "summary": "X221985.01 Upgrade to IOS XR 6.5.3 for OLG HQ CEs - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-16T15:13:23.000-0400",
+        "info": [
+            {
+                "description": "X221985.01 Upgrade to IOS XR 6.5.3 for OLG HQ CEs",
+                "updated": "2022-06-16T15:15:15.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13616",
+        "rpats": "X221846",
+        "summary": "X221846 - Telus 2x10G LAG E-NNI at 151 Front St. West, Toronto ON - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-08T13:04:45.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI to TELUS through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    151 Front St, West, Toronto ON\r\n\r\nTELUS:  151 Front St, West, Toronto ON\r\n",
+                "updated": "2022-07-19T10:07:41.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13588",
+        "rpats": "X221375.02",
+        "summary": "X221375.02 - EON Capacity Upgrade - Card swap at AGW05.BLOOR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-08T10:18:38.000-0400",
+        "info": [
+            {
+                "description": "X221375.02 - EON Capacity Upgrade - Card swap at AGW05.BLOOR",
+                "updated": "2022-08-24T17:56:28.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13584",
+        "rpats": "X221375.01",
+        "summary": "X221375.01 - EON Capacity Upgrade - Card swap at AGW05.BLOOR and Customer Migration to 7210 SAS-SX - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-08T10:13:53.000-0400",
+        "info": [
+            {
+                "description": "*X221375.01 - EON Capacity Upgrade - Card swap at AGW05.BLOOR and Customer Migration to 7210 SAS-SX*",
+                "updated": "2022-08-11T18:18:41.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13223",
+        "rpats": "X221739",
+        "summary": "X221739 - Lumen 2x10G LAG NNI at 151 Front St. West, Toronto ON - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-01T15:12:48.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI to LUMEN through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    151 Front St, West, Toronto ON\r\n\r\nLUMEN:  151 Front St, West, Toronto ON\r\n",
+                "updated": "2022-06-23T14:05:21.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13158",
+        "rpats": "X221587",
+        "summary": "X221587 EON - ALU 7210 SAS SX Satellite Install at MGW01.BARIONFR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-01T10:13:45.000-0400",
+        "info": [
+            {
+                "description": "X221587 EON - ALU 7210 SAS SX Satellite Install at MGW01.BARIONFR",
+                "updated": "2022-06-27T13:53:45.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-13156",
+        "rpats": "X221559",
+        "summary": "X221559 EON - ALU 7210 SAS SX Satellite Install at MGW02.WTRLONVK - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-06-01T10:08:29.000-0400",
+        "info": [
+            {
+                "description": "X221559 EON - ALU 7210 SAS SX Satellite Install at MGW02.WTRLONVK",
+                "updated": "2022-06-27T18:50:30.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12964",
+        "rpats": "X221512",
+        "summary": "X221512 - GTT 2x10G LAG NNI at 151 Front Street West, Toronto, ON M5J 2N1- Project Flamingo - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-30T14:43:22.000-0400",
+        "info": [
+            {
+                "description": "The objective of this document is to provide detailed procedures to build and configure EON 2x10GE ENNI connection with GTT terminating on AGW05.FRONT .",
+                "updated": "2022-06-09T15:45:49.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12745",
+        "rpats": "X221375",
+        "summary": "X221375 - Card swap at AGW05.BLOOR and Customer Migration to 7210 SAS-SX - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Draft",
+        "created": "2022-05-26T16:53:26.000-0400",
+        "info": [
+            {
+                "description": "*X221375 - EON Capacity Upgrade - Card swap at AGW05.BLOOR and Customer Migration to 7210 SAS-SX*",
+                "updated": "2022-05-27T09:05:55.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12648",
+        "rpats": "X221556",
+        "summary": "X221556 EON - ALU 7210 SAS SX Satellite Install at AGW06.WLFDLE - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-25T15:29:42.000-0400",
+        "info": [
+            {
+                "description": "X221556 EON - ALU 7210 SAS SX Satellite Install at AGW06.WLFDLE",
+                "updated": "2022-08-05T10:23:18.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12642",
+        "rpats": "X221557",
+        "summary": "X221557 EON - Ethernet Line Card Addition to EGW01.KTNRONCW - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-25T15:09:31.000-0400",
+        "info": [
+            {
+                "description": "X221557 EON - Ethernet Line Card Addition to EGW01.KTNRONCW",
+                "updated": "2022-06-14T12:30:40.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12596",
+        "rpats": "X221562",
+        "summary": "X221562 - TeraGo NNI Augmentation at  FRONT - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-25T08:22:31.000-0400",
+        "info": [
+            {
+                "description": "Front Location:\r\n\r\nRogers:    151 Front St. W, Toronto\r\nTERAGO:    151 Front St. W, Toronto\r\n",
+                "updated": "2022-06-01T14:43:18.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12574",
+        "rpats": "X221458",
+        "summary": "X221458 - Nokia 7750 TiMOS Upgrade to TiMOS-SR-20.10.R4 - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-24T17:34:53.000-0400",
+        "info": [
+            {
+                "description": "The Nokia 7750 Service Routers (namely AGW05/06/07/08s/MGW01 & MW02) have been deployed in the RCBIN network as Provider Edge devices to provide EON related services, e.g Ethernet Private Line (EPL), Ethernet Virtual Private Line (EVPL), Rogers Dedicated Internet (RDI), Virtual Private LAN service (VPLS), and Virtual Private Routed Network (VPRN) services.\r\n\r\nIn order to deliver the new features, we need to upgrade all existing and to be deployed Nokia 7750's from TiMOS-C-16.0.R3-2 to new TiMOS version SR-20.10.R4. New required features are -\r\n \r\n-\tSupport for the Nokia SAS SX 64P Satellite\r\n\r\n",
+                "updated": "2022-05-24T17:38:35.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12402",
+        "rpats": "X221534",
+        "summary": "X221534 Nokia 7750 SR7s - Additional LAB Test Eqpt - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-20T11:49:02.000-0400",
+        "info": [
+            {
+                "description": "Additional test equipment needed in lab to test new SR7s chassis",
+                "updated": "2022-06-07T16:47:06.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12327",
+        "rpats": "X221506",
+        "summary": "X221506 _ Agilis NNI Augmentation at  FRONT - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-19T16:32:01.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan is to augment the existing AGILIS NNI, to change from 1 x 10G NNI to 2 x 10G NNI.\r\n\r\nVancouver Location:\r\n\r\nRogers:    BMMR2 at 151 Front St. W, Toronto\r\nAGILIS:    BMMR2 at 151 Front St. W, Toronto\r\n",
+                "updated": "2022-06-01T14:26:33.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-12238",
+        "rpats": "X221496",
+        "summary": "X221496- Add new 10G Card to AGW06.NSHLFX - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-18T14:09:10.000-0400",
+        "info": [
+            {
+                "description": "X221496- Add new 10G Card to AGW06.NSHLFX",
+                "updated": "2022-06-24T12:17:37.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11842",
+        "rpats": "X221451",
+        "summary": "X221451 - IES service migration on Halifax EON node AGW06.NSHLFX - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-11T17:11:19.000-0400",
+        "info": [
+            {
+                "description": "The objective of this document is to provide a detailed procedure to shut down IES 99 on  agw06.nshlfx to allow for the creation of a RDI service for customer using the same Point-to-Point IP address on a 7210 SAS-D",
+                "updated": "2022-05-27T11:55:28.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11819",
+        "rpats": "X221449",
+        "summary": "X221449 - RCMIN - Ottawa OOB Migration to new RCMIN - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-11T14:55:05.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-06-29T11:09:05.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11392",
+        "rpats": "X221135",
+        "summary": "X221135 -  Nokia  7750 and 7210 Install at 299-301 O'Connell Drive, Cornerbrook,NF  - V1.0",
+        "assignee": "Jorge.Bejarano@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-04T16:58:44.000-0400",
+        "info": [
+            {
+                "description": "Nokia  7750 and 7210 Install at 299-301 O'Connell Drive, Cornerbrook,NF ",
+                "updated": "2022-09-08T14:16:47.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11381",
+        "rpats": "X212965.02",
+        "summary": "X212965.02 60 Hudson, NY relocation - Site Migrations - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-04T15:29:41.000-0400",
+        "info": [
+            {
+                "description": "X212965.02 60 Hudson, NY relocation - Site Migrations",
+                "updated": "2022-09-12T19:09:38.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11363",
+        "rpats": "X221390",
+        "summary": "X221390-Procurement of additional GPON Hardware_2022 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-04T13:40:22.000-0400",
+        "info": [
+            {
+                "description": "X221390-Procurement of additional GPON Hardware_2022",
+                "updated": "2022-05-04T13:44:11.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11252",
+        "rpats": "X221353",
+        "summary": "X221353 - Nokia 7210 SAS TiMOS Upgrade to TiMOS-B-20.9.R6 - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-03T09:18:22.000-0400",
+        "info": [
+            {
+                "description": "The Nokia 7210 SAS Routers (namely 7210 SAS-D, T, SX Stand alone and M) have been deployed in the EON network as Network Interface Devices (NIDs) and Aggregator switchess to provide EON related services, e.g Ethernet Private Line (EPL), Ethernet Virtual Private Line (EVPL), Rogers Dedicated Internet (RDI), Virtual Private LAN service (VPLS), and Virtual Private Routed Network (VPRN) services.\r\n\r\nIn order to continue the support of these devices after the upgrade of NFMP to version 22.6,  we need to upgrade all existing and to be deployed Nokia 7210 SAS-D, T, SX Stand alone and M's to new TiMOS version TiMOS-B-20.9.R6. \r\n",
+                "updated": "2022-05-03T09:21:49.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11162",
+        "rpats": "X202302.04",
+        "summary": "X202302.04 -  Nokia 7750 and 7360 Install at 6700 Trans-Canada Hwy, Pointe-Claire, QC - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-05-01T00:06:15.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR7 and Nokia 7360 at 6700 Trans-Canada Hwy, Pointe-Claire, QC.",
+                "updated": "2022-05-01T00:08:22.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11159",
+        "rpats": "X211397.01 ",
+        "summary": "X211397.01 -  Nokia 7750 and 7360 Install at 660 rue Lenoir Quebec (E1585) - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-30T23:34:03.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR7 and Nokia 7360 at 660 rue Lenoir Quebec (E1585).",
+                "updated": "2022-04-30T23:36:46.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11153",
+        "rpats": "X212084",
+        "summary": "X221341-Procurement of Nokia Hardware for EON Augmentation 2022 (Phase 3) - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-29T17:43:36.000-0400",
+        "info": [
+            {
+                "description": "X221341-Procurement of Nokia Hardware for EON Augmentation 2022 (Phase 3)",
+                "updated": "2022-04-29T17:47:57.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11147",
+        "rpats": "X220786.01",
+        "summary": "X220786.01 EON MVPNV4 BGP ADDRESS FAMILY SESSION SEPARATION - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-29T15:55:19.000-0400",
+        "info": [
+            {
+                "description": "h1. 1.0 Executive Summary\r\n\r\n \r\n\r\nThis EDS provide guidance and configuration for VPN RR(Route Reflector) peering on BGP *MVPNv4* address family separation from existing BGP peerings. For context, current BGP address families {*}VPNv4{*}, {*}VPNv6{*}, *MVPNv4* are running through a single BGP TCP peering session. A separation will provide added layer of isolation and reduce collatetal damage to services under *VPNv4* and *VPNv6*  address families if instability is presented in *MVPNv4* address family that does not conforms to Nokia support of RFC-7606 error-handling capabilities, in another word if a malformed BGP packet is unrecognizable to be processed properly then a BGP session reset still can occur and the impact will be contained to *MVPNv4* services.\r\n\r\n \r\n\r\nIn addition, the design change will also be improving configuration for *VPNv4* and *VPNv6* address families. Current BGP session initiation from *EON AGW* nodes are using *SYSTEM IP* address as source toward *VPN RRs* *Loopback0* IP address, while *VPN RRs* are initiating using *Loopback0* towards *EON AGW* *Loopback0 IP* address. This creates asymmetry, though ultimately the session initiated from VPN RRs will remain operational, there would a higher resiliency if session initated through EON AGW nodes can establish session as well, in the off chance that maybe config is made on VPN RR side to only act as passive mode, then session will not form. In addition due to BGP timers, this new design has the potential of reducing network convergence time as now both sides are actively trying to establish session toward each other. One thing to note is that when both sides are initiating the peering, another session will be ceased as part of normal BGP process when one session is established.  ",
+                "updated": "2022-04-29T15:56:40.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11062",
+        "rpats": "X221301.05",
+        "summary": "X221301.05 -  Shaw 100G NNI and Uplink Upgrade at Edmonton - Project Scotch - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-29T09:13:18.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of 100G NNI with Shaw and the uplink upgrade of the EON node AGW05.EDTRABAW.",
+                "updated": "2022-04-29T09:16:08.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11058",
+        "rpats": "X221301.04",
+        "summary": "X221301.04 -  Shaw 100G NNI at Calgary - Project Scotch - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-29T08:57:38.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of 100G NNI with Shaw on EON node AGW06.ABCGY.",
+                "updated": "2022-05-31T09:39:34.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-11056",
+        "rpats": "X221301.03 ",
+        "summary": "X221301.03 -  Shaw 100G NNI and Uplink Upgrade at Vancouver - Project Scotch - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-29T08:51:23.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of 100G NNI with Shaw and the uplink upgrade of the EON node AGW06.BCVAN.",
+                "updated": "2022-05-31T09:33:11.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10914",
+        "rpats": "X220105.03",
+        "summary": "X220105.03 Horner Relocation- Site migrations from AGW05.HRNR to AGW06.ETOB and AGW05.FRONT - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-28T10:36:44.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-07-28T09:40:47.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10768",
+        "rpats": "X221299",
+        "summary": "X221299 - FibreNoire 2x10G LAG NNI at 800 Rue de la Gauchetiere O Montreal, QC - Project Flamingo - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-27T09:11:09.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI build to FibreNoire through 2x10Gbps at:\r\n\r\n \r\n\r\n*+Location:+*\r\n\r\n*Rogers:*  *800 Rue de la Gauchetiere O Montreal, QC* \r\n\r\n \r\n\r\n*FibreNoire:*  *800 Rue de la Gauchetiere O Montreal, QC*",
+                "updated": "2022-04-27T09:13:39.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10764",
+        "rpats": "X221301.02",
+        "summary": "X221301.02 -  Shaw 100G LAG NNI at 151 Front St. West, Toronto - Project Scotch - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-27T08:37:43.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides the details for 2x100G NNI with Shaw at 151 Front St. West in Toronto. This is part of Project Scotch.\r\n\r\nLocation:\r\nRogers:    151 Front St, West, Toronto ON\r\n\r\nSHAW:     151 Front St, West, Toronto ON\r\n",
+                "updated": "2022-04-27T08:40:46.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10612",
+        "rpats": "X211398.03",
+        "summary": "X211398.03 -  Nokia 7750 and 7360 Install at 535 Rue Lindbergh, Laval, QC - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-25T20:31:56.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR7 and Nokia 7360 at 535 Rue Lindbergh Laval, QC.",
+                "updated": "2022-05-01T00:03:05.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10583",
+        "rpats": "X221291.01 ",
+        "summary": "X221291.01 Fix OLG Pord and Test VPRN on AGW06.abcgy - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-25T16:28:02.000-0400",
+        "info": [
+            {
+                "description": "X221291.01 Fix OLG Pord and Test VPRN on AGW06.abcgy",
+                "updated": "2022-04-25T16:29:16.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10541",
+        "rpats": "X211207.01",
+        "summary": "X211207.01 EPS - PURCHASE MDA FILLER PANEL TO SUPPORT MDA DECOM - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-25T13:09:28.000-0400",
+        "info": [
+            {
+                "description": "Purchase of MDA filler panels to fill various MDA decom projects",
+                "updated": "2022-04-25T13:11:23.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10527",
+        "rpats": "X221273.01",
+        "summary": "X221273.01-  WPN-HYDRO QUEBEC vSecGW RAN OAM Connectivity - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-25T11:13:34.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-04-25T11:15:39.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10429",
+        "rpats": "X221270.01",
+        "summary": "X221270.01- WPN-NUTRIEN vSecGW RAN OAM Connectivity - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-22T15:42:51.000-0400",
+        "info": [
+            {
+                "description": "1.0 Executive Summary\r\n\r\nWPN(Wireless Private Network) is a new product from R4B to provide Mobile EPC(Evolve Packet Core) functions at customer premise. NUTRIEN, a WPN solution customer requires transport of OAM management traffic for the RAN, IPRAN, TLAN and CPE back to RCMIN network for the OSS servers and applications. \r\n\r\nThrough repurposing of available virtual Router and Firewall VMs in the VAS Platform, a new logical naming has been provided and will be call vSecGW(Virtual Security Gateway) for the role of terminating IPSec tunnels and routing OAM traffic through SDE security zone TEN/UEN back to RCMIN. ",
+                "updated": "2022-04-25T11:26:12.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-10418",
+        "rpats": "X221270.01",
+        "summary": "X221270.01-  WPN-NUTRIEN vSecGW RAN OAM Connectivity  - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-04-22T15:12:26.000-0400",
+        "info": [
+            {
+                "description": "WPN(Wireless Private Network) is a new product from R4B to provide Mobile EPC(Evolve Packet Core) functions at customer premise. WPN customer Nutrien requires transport of OAM management traffic for the RAN, IPRAN, TLAN and CPE back to RCMIN network for the OSS servers and applications.\r\n\r\n \r\n\r\nThrough repurposing of available virtual Router and Firewall VMs in the VAS Platform, a new logical naming has been provided and will be call vSecGW(Virtual Security Gateway) for the role of terminating IPSec tunnels and routing OAM traffic through SDE security zone TEN back to RCMIN.",
+                "updated": "2022-04-22T15:41:35.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9886",
+        "rpats": "X221115.01",
+        "summary": "X221115.01 AGW05.qcmtl AGW06.qubcpqbi AGW06.mtlzpq01 AGW05.mtlnpqdo migrate to new DGW - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-18T09:13:48.000-0400",
+        "info": [
+            {
+                "description": "X221115.01 AGW05.qcmtl AGW06.qubcpqbi AGW06.mtlzpq01 AGW05.mtlnpqdo migrate to new DGW",
+                "updated": "2022-07-19T11:56:43.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9726",
+        "rpats": "X221083",
+        "summary": "X221083 -  Nokia 7750 SR12 and 7210 Install at 94 Driscoll Crescent Moncton, NB - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-13T13:08:48.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of ALU-7750 SR12 and one (1) Nokia 7210 SAS SX 48 port at 94 Driscoll Cresent, Moncton, NB.",
+                "updated": "2022-08-30T15:52:02.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9701",
+        "rpats": "X220993",
+        "summary": "X220993 EON - ALU 7210 SAS SX Satellite Install at MGW01.NEPNONOG - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-13T10:20:22.000-0400",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-05-31T19:47:57.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9631",
+        "rpats": "X221114.01",
+        "summary": "X221114.01 AGW05.bcvan AGW06.bcvan AGW05.vancbcp AGW10.bcvan migrate to new DGW - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-12T12:58:28.000-0400",
+        "info": [
+            {
+                "description": "X221114.01 AGW05.bcvan AGW06.bcvan AGW05.vancbcp AGW10.bcvan migrate to new DGW",
+                "updated": "2022-04-12T13:05:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9630",
+        "rpats": "X221114.02",
+        "summary": "X221114.01 AGW05.bcvan AGW06.bcvan AGW05.vancbcp AGW10.bcvan migrate to new DGW - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-04-12T12:57:11.000-0400",
+        "info": [
+            {
+                "description": "X221114.01 AGW05.bcvan AGW06.bcvan AGW05.vancbcp AGW10.bcvan migrate to new DGW",
+                "updated": "2022-07-19T11:50:50.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9377",
+        "rpats": "X221113.01 ",
+        "summary": "X221113.01 TFT00C01 related configuration clean up - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-07T20:11:39.000-0400",
+        "info": [
+            {
+                "description": "X221113.01 TFT00C01 related configuration clean up",
+                "updated": "2022-04-07T20:12:58.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9278",
+        "rpats": "X220662.01",
+        "summary": "X220662.01 -  EON_XGW_UBF100K_AGW08.WLFDLE - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-06T17:49:16.000-0400",
+        "info": [
+            {
+                "description": "X220662.01 -  EON_XGW_UBF100K_AGW08.WLFDLE",
+                "updated": "2022-09-14T09:20:16.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9256",
+        "rpats": "X220969 ",
+        "summary": "X220969  EON - ALU 7210 SAS SX Satellite Install at AGW05.CRNWONCE  - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-06T14:49:29.000-0400",
+        "info": [
+            {
+                "description": "Nokia 7210 SAS SX Satellite Install at AGW05.CRNWONCE ",
+                "updated": "2022-05-02T14:38:16.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9207",
+        "rpats": "X220757.03",
+        "summary": "X220757.03 - EON-Uplink Capacity Upgrade at 6315 Cote De Liesse - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-06T11:12:05.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 10GE link between, AGW06.SLRMPQAG and VDGW50.SLNT, and AGW06.SLRMPQAG and VDGW50.QCMTL.",
+                "updated": "2022-06-10T14:19:59.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9205",
+        "rpats": "X213195.03",
+        "summary": "X213195.03 - EON-Uplink Capacity Upgrade at Ottawa ring - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-06T11:00:07.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 2x10GE link between, AGW06.SLNT and VDGW50.SLNT, and AGW06.OTWDONRP and VDGW50.QCMTL.",
+                "updated": "2022-06-30T09:41:49.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9154",
+        "rpats": "X220662.04",
+        "summary": "X220662.04 -  Nokia 7750 SR2S and 7210 Install at 1 Sperling Dr Barrie - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-05T15:32:02.000-0400",
+        "info": [
+            {
+                "description": "This Engineering Design Specification will cover two segments:\r\n # Installation of the Nokia 7750 SR2S router\r\n # Installation of two Nokia 7210 SAS Sx 48 and 64 port",
+                "updated": "2022-09-07T11:29:34.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9144",
+        "rpats": "X220662.03",
+        "summary": "X220662.03 -  EON_XGW_UBF100K_AGW07.HNSN - V1.0",
+        "assignee": "Jorge.Bejarano@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-05T14:56:06.000-0400",
+        "info": [
+            {
+                "description": "Nokia 7750 SR2S & 2 7210 SX Install at 13 Hansen Rd, Brampton, Ontario.",
+                "updated": "2022-09-14T09:25:42.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9137",
+        "rpats": "X221067",
+        "summary": "X221067 - Verizon 10G LAG NNI at 60 Hudson St, New York, NY - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-05T14:10:50.000-0400",
+        "info": [
+            {
+                "description": "The objective of this document is to provide detailed procedures to build and configure EON 10GE ENNI connection with VERIZON terminating on AGW05.NYHDSN .\r\nNote: This NNI is being implemented as a 10G NNI, but two ports will be part of the LAG, with one port active and the other in a down state.\r\nThis NNI will be migrated as part of the 60 Hudson Project.\r\n\r\n",
+                "updated": "2022-04-11T21:59:53.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9113",
+        "rpats": "X220662.02",
+        "summary": "X220662.02 - Nokia 7750 SR-2S and 7210 Install at 23 Harris Avenue, Brantford, Ontario - V1.0",
+        "assignee": "Sehrish.Jahan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-05T11:40:12.000-0400",
+        "info": [
+            {
+                "description": "Nokia 7750 SR-2S and 7210 Install at 23 Harris Avenue, Brantford, Ontario",
+                "updated": "2022-09-01T17:09:42.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9111",
+        "rpats": "X220997",
+        "summary": "X220997- RSO Migration from Legacy Cable MPLS to EON - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-05T11:09:10.000-0400",
+        "info": [
+            {
+                "description": "X220997- RSO Migration from Legacy Cable MPLS to EON",
+                "updated": "2022-05-12T12:47:59.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9095",
+        "rpats": "X221059",
+        "summary": "X221059- Add new 10G Card to MGW01.MLTNONOS - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-04T16:53:19.000-0400",
+        "info": [
+            {
+                "description": "X221059- Add new 10G Card to MGW01.MLTNONOS",
+                "updated": "2022-04-21T11:53:12.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9087",
+        "rpats": "X221058",
+        "summary": "X221058- Add new 10G Card to AGW05.MRHNONKX - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-04T16:47:31.000-0400",
+        "info": [
+            {
+                "description": "X221058- Add new 10G Card to AGW05.MRHNONKX",
+                "updated": "2022-04-29T13:23:21.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-9024",
+        "rpats": "X221056",
+        "summary": "X221056 - Zayo 2x10G LAG NNI at 752-10th Ave SW, Calgary AB - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-04T11:12:18.000-0400",
+        "info": [
+            {
+                "description": "The objective of this document is to provide detailed procedures to build and configure EON 2x10GE ENNI connection with Zayo terminating on AGW06.ABCGY .",
+                "updated": "2022-04-04T11:15:37.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8987",
+        "rpats": "X221060 ",
+        "summary": "X221060 - Bell 2x10G LAG NNI at 151 Front St. West, Toronto ON - Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-04-02T17:32:47.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI to BELL through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    151 Front St, West, Toronto ON\r\n\r\nBELL:  151 Front St, West, Toronto ON\r\n",
+                "updated": "2022-04-28T09:52:38.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8843",
+        "rpats": "X220554",
+        "summary": "X220554 -  Nokia 7750 SR2S and 7210 Install at 855 York Mills Rd North York - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-31T16:08:12.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR2S and 2 Nokia 7210 SAS SX  at 855 York Mills Rd North York.",
+                "updated": "2022-06-14T13:48:43.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8716",
+        "rpats": "X220978",
+        "summary": "X220978 - BELL 2x10G LAG NNI at 752 10 Ave SW Calgary, AB - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-30T08:54:31.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan provides for new EON ENNI build to BELL through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    752 10 Ave SW Calgary, AB\r\n\r\nBELL:  752 10 Ave SW Calgary, AB\r\n",
+                "updated": "2022-03-30T08:57:16.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8714",
+        "rpats": "X220912",
+        "summary": "X220912 -  Nokia 7750 SR-2S and 7210 Install at 333 Bloor St E Toronto, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-30T08:47:35.000-0400",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR-2S and Nokia 7210 SAS SX  at 333 Bloor St E Toronto, ON.",
+                "updated": "2022-09-03T16:17:16.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8671",
+        "rpats": "X212450.04",
+        "summary": "X212450.04 Sprint 3602 Toronto Passport Decommission - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-29T12:12:57.000-0400",
+        "info": [
+            {
+                "description": "X212450.04 Sprint 3602 Toronto Passport Decommission",
+                "updated": "2022-06-07T10:25:01.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8669",
+        "rpats": "X212450.03",
+        "summary": "X212450.03 Sprint 3602 Vancouver Passport Decommission - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-29T12:06:53.000-0400",
+        "info": [
+            {
+                "description": "X212450.03 Sprint 3602 Vancouver Passport Decommission",
+                "updated": "2022-06-07T10:20:04.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8463",
+        "rpats": "X220961.01",
+        "summary": "X220961.01 NHL Immersiv.io AWS Outpost SDE connectivity - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-25T17:06:54.000-0400",
+        "info": [
+            {
+                "description": "h1. 1.0  Executive Summary\r\n\r\nEON network will be providing L3VPN connectitivy on AGW06.WLFDLE to support Technology Partnerships & Incubation team on NHL Immersiv demo is a showcase of low latency AR application(Immersiv) leveraging AWS Outpost MEC platform and Rogers 5G network. This would be first MEC application deployed on AWS outpost in Rogers network demonstrating the benefits and 5G and MEC.\r\n\r\nDemo/POC to occur before Playoff during regular season game and needs urgent connectivity between NHL servers inside Arena to application residing in Rogers network.",
+                "updated": "2022-03-25T17:40:01.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8155",
+        "rpats": "X213503.02",
+        "summary": "X213503.02 - EON-Uplink Capacity Upgrade at Mississauga Ring - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-23T14:09:02.000-0400",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 10GE link between the nodes in the Mississauga ring.",
+                "updated": "2022-03-23T14:11:45.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8146",
+        "rpats": "X220911",
+        "summary": "X220911- Add new 10G Card to MGW02.OTWDONRQ - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-23T12:46:07.000-0400",
+        "info": [
+            {
+                "description": "X220911- Add new 10G Card to MGW02.OTWDONRQ",
+                "updated": "2022-04-25T15:39:52.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8142",
+        "rpats": "X220910",
+        "summary": "X220910- Add new 10G Card to MGW01.MSSION83 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-23T12:36:15.000-0400",
+        "info": [
+            {
+                "description": "X220910- Add new 10G Card to MGW01.MSSION83",
+                "updated": "2022-04-08T10:35:37.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8139",
+        "rpats": "X220909",
+        "summary": "X220909- Add new 10G Card to MGW01.BARIONFR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-23T12:24:41.000-0400",
+        "info": [
+            {
+                "description": "X220909- Add new 10G Card to MGW01.BARIONFR",
+                "updated": "2022-04-17T19:18:50.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8137",
+        "rpats": "X220908",
+        "summary": "X220908- Add new 10G Card to MGW01.HMTNONSQ - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-23T12:16:40.000-0400",
+        "info": [
+            {
+                "description": "X220908- Add new 10G Card to MGW01.HMTNONSQ",
+                "updated": "2022-04-06T12:19:09.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-8068",
+        "rpats": "X220913",
+        "summary": "Project Flamingo_EON Ontera NNI Augmentation at  FRONT - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-22T11:37:10.000-0400",
+        "info": [
+            {
+                "description": "This engineering plan is to augment the existing EON ENNI to ONTERA NNI, ROGONTE001, to change from 1 x 10G NNI to 2 x 10G NNI.",
+                "updated": "2022-04-22T09:29:50.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7902",
+        "rpats": "X212965.01",
+        "summary": "X212965.01 60 Hudson, NY relocation - NEW ALU 7750 SR7 and Migration - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-18T17:20:47.000-0400",
+        "info": [
+            {
+                "description": "X212965.01 60 Hudson, NY relocation - NEW ALU 7750 SR7 and Migration",
+                "updated": "2022-07-05T10:17:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7898",
+        "rpats": "X220105.02",
+        "summary": "X220105.02 Horner Relocation- 10G Cards and ALU 7210 SAS SX Satellite Install at AGW06.ETOB - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-18T17:00:50.000-0400",
+        "info": [
+            {
+                "description": "X220105.02 Horner Relocation- 10G Cards and ALU 7210 SAS SX Satellite Install at AGW06.ETOB",
+                "updated": "2022-04-01T10:44:22.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7874",
+        "rpats": "X220829.01",
+        "summary": "X220829.01 OLG RELATED NET 7 CLEAN UP - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-18T15:38:40.000-0400",
+        "info": [
+            {
+                "description": "X220829.01 OLG RELATED NET 7 CLEAN UP",
+                "updated": "2022-03-18T15:40:07.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7805",
+        "rpats": "X220354.01",
+        "summary": "X220354.01 EON 7750 CF3 Flash Card Upgrade - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-17T17:00:43.000-0400",
+        "info": [
+            {
+                "description": "Upgrade all 2gb cf3 flash cards in EON network to prep for TIMOS upgrade",
+                "updated": "2022-04-27T11:40:34.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7756",
+        "rpats": "X220845",
+        "summary": "X220845 - EON 7210 VPRN 10 - REMOVE NET7 ROUTING - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-17T13:11:50.000-0400",
+        "info": [
+            {
+                "description": "Removes all NET7 routing from outside 7210 management VRF",
+                "updated": "2022-03-17T13:15:24.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7482",
+        "rpats": "X220828.01 ",
+        "summary": "X220828.01 VDGW MEMORY ISSUE AND CDP SECURITY ISSUE - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-14T10:27:59.000-0400",
+        "info": [
+            {
+                "description": "X220828.01 VDGW MEMORY ISSUE AND CDP SECURITY ISSUE",
+                "updated": "2022-03-14T10:29:32.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7468",
+        "rpats": "X220826.01 ",
+        "summary": "X220826.01  ATRIA NETWORK CHANGE - PARTIAL BGP POLICY CHANGE-Markham - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-13T14:24:44.000-0400",
+        "info": [
+            {
+                "description": "X220826.01  ATRIA NETWORK CHANGE - PARTIAL BGP POLICY CHANGE-Markham",
+                "updated": "2022-04-13T09:44:37.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7195",
+        "rpats": "X220323.02 ",
+        "summary": "Nokia 7750 and 7210 Install at 51 Lewis St, Woodstock - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-08T21:33:01.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR7 and Nokia 7210 SAS SX  at 51 Lewis St, Woodstock, ON.",
+                "updated": "2022-04-07T09:43:12.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7193",
+        "rpats": "X220765",
+        "summary": "Nokia 7750 SR-2S and 7210 Install at 1427 Salem Rd Ajax, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-08T21:26:14.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR-2S and Nokia 7210 SAS SX  at 1427 Salem Rd Ajax, ON.",
+                "updated": "2022-07-11T11:38:38.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7191",
+        "rpats": "X220764",
+        "summary": "Nokia 7750 SR-2S and 7210 Install at 541 Kenmount Rd St. John's, NL - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-08T21:19:52.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR-2S and Nokia 7210 SAS SX  at 541 Kenmount Rd St. John's, NL.",
+                "updated": "2022-07-11T11:27:33.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-7189",
+        "rpats": "X220798",
+        "summary": "Eastlink 2x10G LAG NNI at 151 Front St. West, Toronto ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-08T21:12:56.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI to EASTLINK through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    151 Front St, West, Toronto ON (BMMR2)\r\n\r\nEASTLINK:  151 Front St, West, Toronto ON (BMMR2)\r\n",
+                "updated": "2022-06-21T08:30:30.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6986",
+        "rpats": "X202251.01",
+        "summary": "X202251.01_EDS_R4B_NETSCOUT_ARBOR_SP_6000_VIRTUALIZATION - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-06T21:32:56.000-0500",
+        "info": [
+            {
+                "description": "X202251.01_EDS_R4B_NETSCOUT_ARBOR_SP_6000_VIRTUALIZATION",
+                "updated": "2022-03-06T21:39:28.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6879",
+        "rpats": "X220662",
+        "summary": "X220662-EON_XGW_UBF100K-R4B Nokia Advance Equipment Purchase - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-03T15:00:32.000-0500",
+        "info": [
+            {
+                "description": "X220662-EON_XGW_UBF100K-R4B Nokia Advance Equipment Purchase",
+                "updated": "2022-09-01T17:08:34.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6795",
+        "rpats": "X220732",
+        "summary": "X220732- Add new 10G Card to AGW06.SLRMPQAG - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-03-02T18:03:51.000-0500",
+        "info": [
+            {
+                "description": "X220732- Add new 10G Card to AGW06.SLRMPQAG",
+                "updated": "2022-03-17T15:28:38.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6613",
+        "rpats": "X220697",
+        "summary": "BELL 2x10G LAG NNI at 752 10 Ave SW Calgary, AB - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-28T16:09:31.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan provides for EON ENNI to BELL through 2x10Gbps at:\r\n\r\nLocation:\r\nRogers:    752 10 Ave SWCalgary, AB, ON\r\n\r\nBELL:  752 10 Ave SWCalgary, AB, ON\r\n",
+                "updated": "2022-02-28T16:16:29.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6593",
+        "rpats": "X220695",
+        "summary": "Nokia 7750 SR-2S and 7210 Install at 234 Newkirk Rd Richmond Hill, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-28T14:45:55.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR-2S and Nokia 7210 SAS SX  at 234 Newkirk Rd Richmond Hill, ON.",
+                "updated": "2022-07-11T11:00:18.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6585",
+        "rpats": "X220694",
+        "summary": "Nokia 7750 SR-2S and 7210 Install at 4 Sandford Fleming Dr Collingwood, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-28T14:25:30.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR-2S and Nokia 7210 SAS SX  at 4 Sandford Fleming Dr Collingwood, ON.",
+                "updated": "2022-07-06T20:55:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6576",
+        "rpats": "X220696",
+        "summary": "Uplink upgrade at 752 10 Ave SW Calgary, AB - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-28T14:13:24.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 100GE link between AGW06.ABCGY and DGW01.ABCGY and DGW02.ABCGY.",
+                "updated": "2022-04-14T10:45:54.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6497",
+        "rpats": "X220692",
+        "summary": "X220692 EON - ALU 7210 SAS SX Satellite Install at AGW06.SLNT - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-25T16:22:16.000-0500",
+        "info": [
+            {
+                "description": "X220692 EON - ALU 7210 SAS SX Satellite Install at AGW06.SLNT",
+                "updated": "2022-04-08T13:51:54.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6477",
+        "rpats": "X220687",
+        "summary": "X220687 EON - ALU 7210 SAS SX Satellite Install at MGW01.MRHMONIL - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-25T15:03:49.000-0500",
+        "info": [
+            {
+                "description": "X220687 EON - ALU 7210 SAS SX Satellite Install at MGW01.MRHMONIL",
+                "updated": "2022-03-31T10:56:39.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6308",
+        "rpats": "X220584",
+        "summary": "X220584 - Add new 10G card to AGW06.WDSTCK - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T11:38:40.000-0500",
+        "info": [
+            {
+                "description": "X220584 - Add new 10G card to AGW06.WDSTCK",
+                "updated": "2022-06-13T17:56:18.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6305",
+        "rpats": "X220583",
+        "summary": "X220583 - Add new 10G card to AGW07.NBFD - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T11:35:55.000-0500",
+        "info": [
+            {
+                "description": "X220583 - Add new 10G card to AGW07.NBFD",
+                "updated": "2022-04-25T10:08:42.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6303",
+        "rpats": "X220582",
+        "summary": "X220582 - Add new 10G card to AGW06.DUPT - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T11:31:44.000-0500",
+        "info": [
+            {
+                "description": "X220582 - Add new 10G card to AGW06.DUPT",
+                "updated": "2022-04-14T11:27:24.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6301",
+        "rpats": "X220581",
+        "summary": "X220581 - Add new 10G card to MGW02.CMBGONCD - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T11:26:11.000-0500",
+        "info": [
+            {
+                "description": "X220581 - Add new 10G card to MGW02.CMBGONCD",
+                "updated": "2022-04-14T11:30:14.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6299",
+        "rpats": "X220580",
+        "summary": "X220580 - Add New 10G card to MGW02.BAOL - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T11:20:48.000-0500",
+        "info": [
+            {
+                "description": "X220580 - Add New 10G card to MGW02.BAOL",
+                "updated": "2022-04-13T12:30:56.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6292",
+        "rpats": "X220579",
+        "summary": "X220579 - Add new 10G card to MGW02.BAAL - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-24T10:15:14.000-0500",
+        "info": [
+            {
+                "description": "X220579 - Add new 10G card to MGW02.BAAL at 562 Victoria Street East, Alliston, Ontario",
+                "updated": "2022-04-13T12:52:09.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6287",
+        "rpats": "X220655",
+        "summary": "BELL 2x10G LAG NNI at 970 Green Valley Rd London - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-23T22:46:58.000-0500",
+        "info": [
+            {
+                "description": "The objective of this document is to provide detailed procedures to build and configure EON 2x10GE ENNI connection with BELL terminating on AGW08.LONDONWG ",
+                "updated": "2022-06-13T17:31:41.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6285",
+        "rpats": "X220654",
+        "summary": "BELL 2x10G LAG NNI at 1810 St Laurent Blvd Ottawa, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-23T22:40:50.000-0500",
+        "info": [
+            {
+                "description": "The objective of this document is to provide detailed procedures to build and configure EON 2x10GE ENNI connection with BELL terminating on AGW07.SLNT ",
+                "updated": "2022-03-17T20:14:14.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6208",
+        "rpats": "X213502.02",
+        "summary": "EON-Uplink Capacity Upgrade at 436 Hazeldean Rd, Ottawa, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-22T20:19:07.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 10GE link between AGW05.KNTAONBQ and AGW06.KNTAONBQ, AGW05.KNTAONBQ and VDGW50.SLNT, and AGW06.KNTAONBQ and VDGW50.QCMTL.",
+                "updated": "2022-05-10T11:41:20.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6206",
+        "rpats": "X220429.02",
+        "summary": "Uplink upgrade at 45 Parliament Street, Toronto, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-22T20:04:46.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 100GE link between AGW05.TORKONVO and DGW01.BLOOR and DGW02.BLOOR.",
+                "updated": "2022-07-04T14:34:27.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-6085",
+        "rpats": "X220440.01",
+        "summary": "X220440.01 Net 7 migration for OLG-OOB-routers - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-18T14:21:32.000-0500",
+        "info": [
+            {
+                "description": "X220440.01 Net 7 migration for OLG-OOB-routers",
+                "updated": "2022-03-16T10:44:58.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5966",
+        "rpats": "X211207",
+        "summary": "X211207 Network Groom and Decom-20PT Cards  - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T14:03:01.000-0500",
+        "info": [
+            {
+                "description": "X211207 Network Groom and Decom-20PT Cards ",
+                "updated": "2022-02-16T14:05:25.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5949",
+        "rpats": "X220479",
+        "summary": "X220479-Procurement of Nokia 7360 FX-8 for EON Augmentation 2022 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T12:55:56.000-0500",
+        "info": [
+            {
+                "description": "X220479-Procurement of Nokia 7360 FX-8 for EON Augmentation 2022",
+                "updated": "2022-02-16T12:59:05.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5944",
+        "rpats": "X220547",
+        "summary": "X220547 - ALU 7210 SAS SX Satellite Install at AGW06.DWSN - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-02-16T12:28:43.000-0500",
+        "info": [
+            {
+                "description": "ALU 7210 SAS SX Satellite Install at AGW06.DWSN",
+                "updated": "2022-03-09T11:01:44.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5942",
+        "rpats": "X220546",
+        "summary": "X220546 - ALU 7210 SAS SX Satellite Install at AGW07. BAWK - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T12:21:38.000-0500",
+        "info": [
+            {
+                "description": "ALU 7210 SAS SX Satellite Install at AGW07. BAWK",
+                "updated": "2022-03-08T09:56:26.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5938",
+        "rpats": "X220537",
+        "summary": "X220537 - ALU 7210 SAS SX Satellite Install at AGW06.QUBCPQBI - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T12:06:14.000-0500",
+        "info": [
+            {
+                "description": "ALU 7210 SAS SX Satellite Install at AGW06.QUBCPQBI",
+                "updated": "2022-03-20T21:49:39.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5934",
+        "rpats": "X212757",
+        "summary": "EDS210900129 -  X212757 - Add new 10G Card to AGW06.FLFRD - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T11:21:35.000-0500",
+        "info": [
+            {
+                "description": "X212757 - Add new 10G Card to AGW06.FLFRD",
+                "updated": "2022-03-01T16:12:47.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5930",
+        "rpats": "X212759",
+        "summary": "EDS210900130 -  X212759 - Add new 10G Card to AGW06.AJAX - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-16T11:15:16.000-0500",
+        "info": [
+            {
+                "description": "X212759 - Add new 10G Card to AGW06.AJAX",
+                "updated": "2022-02-16T11:30:50.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5844",
+        "rpats": "X220560",
+        "summary": "X220560- Add new 10G Card to MGW01.MRHMONIL - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-15T12:31:27.000-0500",
+        "info": [
+            {
+                "description": "X220560- Add new 10G Card to MGW01.MRHMONIL",
+                "updated": "2022-03-04T13:57:03.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5836",
+        "rpats": "X220557",
+        "summary": "X220557 EON - ALU 7210 SAS SX Satellite Install at AGW06.SLRMPQAG - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-15T11:26:31.000-0500",
+        "info": [
+            {
+                "description": "X220557 EON - ALU 7210 SAS SX Satellite Install at AGW06.SLRMPQAG",
+                "updated": "2022-03-17T15:26:45.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5785",
+        "rpats": "X220544",
+        "summary": "X220544- Add new 10G Card to AGW06.STRFRD - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-14T16:26:44.000-0500",
+        "info": [
+            {
+                "description": "X220544- Add new 10G Card to AGW06.STRFRD",
+                "updated": "2022-06-21T10:03:09.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5717",
+        "rpats": "X220538",
+        "summary": "X220538- Add second 10G MDA Card to AGW06.ETOB - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-14T12:33:13.000-0500",
+        "info": [
+            {
+                "description": "X220538- Add second 10G MDA Card to AGW06.ETOB",
+                "updated": "2022-03-16T17:45:37.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5710",
+        "rpats": "X212758.01",
+        "summary": "X212758- Add new 10G Card to AGW06.BRNTFD - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-02-14T11:44:50.000-0500",
+        "info": [
+            {
+                "description": "X212758- Add new 10G Card to AGW06.BRNTFD",
+                "updated": "2022-02-14T11:49:59.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5705",
+        "rpats": "X212819",
+        "summary": "X212819- Add a second 10G MDA card in Slot 10 on AGW06.YM - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-14T11:18:35.000-0500",
+        "info": [
+            {
+                "description": "X212819- Add a second 10G MDA card in Slot 10 on AGW06.YM",
+                "updated": "2022-03-16T17:44:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5702",
+        "rpats": "X212817",
+        "summary": "X212817- Add second MDA card in Slot 5 on AGW07.SLNT - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-14T11:13:53.000-0500",
+        "info": [
+            {
+                "description": "X212817- Add second MDA card in Slot 5 on AGW07.SLNT",
+                "updated": "2022-03-17T13:41:19.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5612",
+        "rpats": "X220470",
+        "summary": "X220470 EON - ALU 7210 SAS SX Satellite Install at AGW06.MTMC - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-11T13:59:33.000-0500",
+        "info": [
+            {
+                "description": "X220470 EON - ALU 7210 SAS SX Satellite Install at AGW06.MTMC",
+                "updated": "2022-04-06T14:34:58.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5430",
+        "rpats": "X220241.01",
+        "summary": "X220241.01 OLG LTE-Add IP Blocks for new tunnel group on AGW05.bloor, AGW07.wlfdle, AGW05.qcmtl and AGW05.mtlzpq01 - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-09T16:38:26.000-0500",
+        "info": [
+            {
+                "description": "X220241.01 OLG LTE-Add IP Blocks for new tunnel group on AGW05.bloor, AGW07.wlfdle, AGW05.qcmtl and AGW05.mtlzpq01",
+                "updated": "2022-02-24T10:35:39.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5426",
+        "rpats": "X212804.02",
+        "summary": "X212804.02 RNE 2022 - R4B Nokia Advance Equipment Purchase - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-09T16:22:27.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-09T16:24:08.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5379",
+        "rpats": "X210356.02",
+        "summary": "X210356.02 - AGW05.VANCBCPC and AGW06.VANCBCPC 7750 C12 DECOM - V2.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-09T11:09:01.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-04-22T15:49:43.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5372",
+        "rpats": "X220421",
+        "summary": "X220421 EON - ALU 7210 SAS SX Satellite Install at AGW06.GRNSBR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-09T10:12:53.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-04-11T11:05:45.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5357",
+        "rpats": "X202595.06",
+        "summary": "X202595.06- DECOM BLINK 151 Front - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-08T16:58:12.000-0500",
+        "info": [
+            {
+                "description": "X202595.06- DECOM BLINK 151 Front",
+                "updated": "2022-02-08T17:06:41.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5337",
+        "rpats": "X220447",
+        "summary": "X220447-Procurement of NELT-B cards for EON Augmentation 2022 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-08T14:22:15.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-08T14:29:04.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5242",
+        "rpats": "X200731.16",
+        "summary": "EON - X200731.16 ALU 7360 Install at 6400, Auteuil St., Brossard - V1.4",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-07T14:12:33.000-0500",
+        "info": [
+            {
+                "description": "This document represents the installation and provisioning details of Alcatel-Lucent 7360 ISAM FX-4 and the addition of an XGSPON splitter at 6400, Auteuil St., Brossard. ",
+                "updated": "2022-02-07T14:16:48.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5210",
+        "rpats": "X220354",
+        "summary": "X220354 EON 7750 CF3 Flash Card Upgrade - Hardware Purchase - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-07T11:27:38.000-0500",
+        "info": [
+            {
+                "description": "X220354 EON 7750 CF3 Flash Card Upgrade - Hardware Purchase",
+                "updated": "2022-02-07T12:35:32.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5186",
+        "rpats": "X211607.02",
+        "summary": "X211607.02 -  Nokia 7750 SR2S and 7210 Install at 151 Front Street West - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-06T21:04:55.000-0500",
+        "info": [
+            {
+                "description": "This Engineering plan describes the installation of Nokia 7750 SR2S and Nokia 7210 SAS SX  at 151 Front Street West.",
+                "updated": "2022-09-03T16:13:13.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5184",
+        "rpats": "X220413 ",
+        "summary": "X220413 - Uplink upgrade at 3330 McNicoll Ave Scarborough, ON - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-06T20:50:15.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering design document is to provide design and technical details to add a 100GE link between AGW06.MTMC and DGW01.MTMC and DGW01.MTMC.",
+                "updated": "2022-03-18T14:54:42.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5182",
+        "rpats": "X220261 ",
+        "summary": "X220261 - NEW CARD ADDITION AT CALGARY - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-06T20:37:08.000-0500",
+        "info": [
+            {
+                "description": "Due to 10G and 100G port requirement on agw06.abcgy, this plan is to add a new iom4e card on slot 6 and 8 on agw06.abcgy. This engineering plan provides the details of installation/configuration required for adding a new card. This is required for COR 2104-8932 Tbay Tel.",
+                "updated": "2022-04-06T10:30:28.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5158",
+        "rpats": " X202595.05",
+        "summary": "X202595.05 Blink - MGMT MIGRATION - V2 - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-05T09:27:19.000-0500",
+        "info": [
+            {
+                "description": "X202595.05 Blink - MGMT MIGRATION - V2",
+                "updated": "2022-02-22T09:23:38.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-5126",
+        "rpats": "X220332.01",
+        "summary": "X220332.01 Adjust uplink ISIS cost for AGWs in ESNA - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-04T14:12:41.000-0500",
+        "info": [
+            {
+                "description": "X220332.01 Adjust uplink ISIS cost for AGWs in ESNA",
+                "updated": "2022-02-04T14:15:17.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4983",
+        "rpats": "X211695.01",
+        "summary": "X211695.01 RNE EON Markham PHUB Relocate - NEW Nodes - V1.0",
+        "assignee": "Jeff.Young@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-02-02T16:54:51.000-0500",
+        "info": [
+            {
+                "description": "X211695.01 RNE EON Markham PHUB Relocate - NEW Nodes",
+                "updated": "2022-02-02T16:59:55.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4864",
+        "rpats": "X220272",
+        "summary": "X220272 EON - ALU 7210 SAS SX Satellite Install at AGW05.BLOOR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-31T20:17:02.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-03T12:12:15.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4862",
+        "rpats": "X191576.04",
+        "summary": "X191576.04 Uplinks shutdown and Physical Decommision v2.0 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-31T19:53:51.000-0500",
+        "info": [
+            {
+                "description": "Decommissioning of Legacy Cable MPLS nodes",
+                "updated": "2022-07-04T11:04:46.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4776",
+        "rpats": "X212450.02",
+        "summary": "X212450.02 Sprint 3602 SERVICE Decommission - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-28T14:55:20.000-0500",
+        "info": [
+            {
+                "description": "X212450.02 Sprint 3602 SERVICE Decommission",
+                "updated": "2022-09-09T15:30:57.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4692",
+        "rpats": "X213649.01",
+        "summary": "X213649.01 EDS - 2022 RCBIN-BAU Card Installation (Removed Cards) - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-27T11:54:23.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-04-19T09:31:58.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4670",
+        "rpats": "X210199.04",
+        "summary": "X210199.04- 10G card install on AGW07.SLNT to support remote OLTs at Kemptville - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-26T18:07:00.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-28T11:54:34.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4641",
+        "rpats": "X220218.01",
+        "summary": "X220218.01 Migrate IPv4 Transit from TFT00C01 to SHE00C01 in Blink Network  - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-26T15:06:59.000-0500",
+        "info": [
+            {
+                "description": "X220218.01 Migrate IPv4 Transit from TFT00C01 to SHE00C01 in Blink Network",
+                "updated": "2022-02-23T09:12:40.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4635",
+        "rpats": "X212758",
+        "summary": "X212758- Add new 10G Card to AGW06.BRNTFD - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-26T14:16:33.000-0500",
+        "info": [
+            {
+                "description": "X212758- Add new 10G Card to AGW06.BRNTFD",
+                "updated": "2022-01-30T20:52:45.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4578",
+        "rpats": "X211757",
+        "summary": "X211757- Stingray Server Migration from Legacy Cable MPLS to EON - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-25T14:47:37.000-0500",
+        "info": [
+            {
+                "description": "X211757- Stingray Server Migration from Legacy Cable MPLS to EON",
+                "updated": "2022-02-03T11:06:27.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4547",
+        "rpats": "X212690",
+        "summary": "X212690_EDS_Georgetown_Pop_Rehome - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-24T20:25:28.000-0500",
+        "info": [
+            {
+                "description": "X212690_EDS_Georgetown_Pop_Rehome",
+                "updated": "2022-02-07T12:10:51.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4437",
+        "rpats": "X220196",
+        "summary": "X220196 -  RSO LAG Creation on  AGW08.LONDONWG - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-21T18:17:00.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering plan is for the creation of a LAG on agw08.londonwg for RDI services for RSO.",
+                "updated": "2022-02-04T21:51:01.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-4365",
+        "rpats": "X211207",
+        "summary": "X211207 Network Groom and Decom-20PT Cards - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2022-01-20T14:10:48.000-0500",
+        "info": [
+            {
+                "description": "X211207 Network Groom and Decom-20PT Cards",
+                "updated": "2022-03-25T23:22:54.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3950",
+        "rpats": "X220105",
+        "summary": "Procurement of Hardware for 433 Horner relocation project - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-14T14:14:06.000-0500",
+        "info": [
+            {
+                "description": "Procurement of Hardware for 433 Horner relocation project",
+                "updated": "2022-01-14T15:08:31.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3673",
+        "rpats": "X212826.05",
+        "summary": "X212826.05 Project Flamingo_EON Telus NNI Augmentation at  ABCGY - V1.1",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-10T11:04:19.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-05-31T09:24:39.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3671",
+        "rpats": "X212826.04",
+        "summary": "X212826.04 Project Flamingo_EON Telus NNI Augmentation at  BCVAN - V1.1",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-10T10:58:45.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan is to augment the existing EON ENNI to TELUS NNIs, ROGTELU008, to change from 2 x 10G NNI (effective 10G bandwidth) to 4 x 10G NNI (effective 20G bandwidth).\r\n\r\nVancouver Location:\r\n\r\nRogers:    301 Industrial Avenue, Vancouver\r\nTelus:    301 Industrial Avenue, Vancouver\r\n",
+                "updated": "2022-06-06T16:46:00.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3669",
+        "rpats": "X212826.03",
+        "summary": "X212826.03 Project Flamingo_EON Eastlink NNI build at Halifax - V1.1",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-10T10:51:58.000-0500",
+        "info": [
+            {
+                "description": "As part of Project Flamingo, this engineering plan is to build a EON ENNI to Eastlink through 2x10Gbps at 6080 Young Street Halifax NS to provide capacity and redundancy.\r\n\r\n\r\nHalifax Location:\r\n\r\nRogers:    6080 Young Street Halifax NS\r\nEastlink:    6080 Young Street Halifax NS\r\n",
+                "updated": "2022-06-17T14:55:24.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3653",
+        "rpats": "X213432",
+        "summary": "X213432 EON - Ethernet Line Card Addition to EGW01.WLFDLE - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-10T09:22:45.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-01-20T11:03:53.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3552",
+        "rpats": "X213632.01",
+        "summary": "X213632.01 BGP ERROR HANDLING WITH ROUTE REFLECTOR - V1.0",
+        "assignee": "Carlos.Huang@rci.rogers.com",
+        "status": "Published",
+        "created": "2022-01-05T14:48:49.000-0500",
+        "info": [
+            {
+                "description": "This EDS provide guidance to address BGP malformed packet error handling on EON nodes, in this implementation, the BGP configuration will be geared toward Route Reflectors group.",
+                "updated": "2022-01-05T14:53:01.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3447",
+        "rpats": "X213647.01",
+        "summary": "X213647.01 Add policy for vprn 119729 at AGW06.mtnk - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-24T10:49:52.000-0500",
+        "info": [
+            {
+                "description": "X213647.01 Add policy for vprn 119729 at AGW06.mtnk",
+                "updated": "2021-12-24T10:51:45.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3289",
+        "rpats": "X213082.01",
+        "summary": "X213082.01 ITQ-Gov_HQ_Router_Cisco_ASR9904 installation - V2 - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-21T09:16:47.000-0500",
+        "info": [
+            {
+                "description": "X213082.01 ITQ-Gov_HQ_Router_Cisco_ASR9904 installation - V2",
+                "updated": "2022-06-08T10:24:00.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3237",
+        "rpats": "X213608",
+        "summary": "X213608 - 2022 RCBIN-RNE Card Installation (IP Core Engineering) - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Cancelled",
+        "created": "2021-12-17T16:45:47.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-07T10:26:11.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3231",
+        "rpats": "X213607",
+        "summary": "EON Rogers_SHAW_10G E-NNI Augmentation at 151 Front_Project Flamingo - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-17T14:52:03.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan is to move the current Shaw NNI on node agw05.front to node agw07.front at 151 Front.",
+                "updated": "2022-01-19T12:59:21.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3229",
+        "rpats": "X213421",
+        "summary": "10G Optics change on Uplinks between MGW01.WRDNONAM and AGW05.HMTPON02 - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-17T13:36:45.000-0500",
+        "info": [
+            {
+                "description": "The purpose of this engineering plan is to swap XFP Optics going from MGW01.WRDNONAM (75 John St. Hamilton) to AGW05.HMTPON02 (499 King St. W, Hamilton). Transport is installing new Appollo Ribbon equipment that is required for the deployment of a new DWDM system in the SWO Region. Existing Lindsay Cube couplers will be leveraged and need the 1550nm wavelength. As a result, the circuits mentioned that are using this wavelength will need to move to the 1590nm wavelength which is available.",
+                "updated": "2021-12-30T16:52:02.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3204",
+        "rpats": "X213595.01",
+        "summary": "X213595.01 Increase Uplink Bandwidth for vDGW50.bloor and vDGW50.ym - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-16T15:51:01.000-0500",
+        "info": [
+            {
+                "description": "X213595.01 Increase Uplink Bandwidth for vDGW50.bloor and vDGW50.ym",
+                "updated": "2022-02-03T12:09:05.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3197",
+        "rpats": "X213566.01",
+        "summary": "X213566.01 Icrease Uplink Bandwidth for vDGW50.wlfdle and vDGW50.mtnk - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-16T13:57:18.000-0500",
+        "info": [
+            {
+                "description": "X213566.01 Icrease Uplink Bandwidth for vDGW50.wlfdle and vDGW50.mtnk",
+                "updated": "2022-03-08T19:30:34.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3157",
+        "rpats": "X213567.01",
+        "summary": "X213567.01 Icrease Uplink Bandwidth for vDGW50.qcmtl and vDGW50.slnt - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-15T15:15:11.000-0500",
+        "info": [
+            {
+                "description": "X213567.01 Icrease Uplink Bandwidth for vDGW50.qcmtl and vDGW50.slnt",
+                "updated": "2022-08-02T14:23:27.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3149",
+        "rpats": "X213330.01",
+        "summary": "X213330.01 - 2022 DGW-CGW Uplink Upgrades (2021 GCR - BAAL) - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-15T13:30:57.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-01-17T16:02:32.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3147",
+        "rpats": "X213330.01",
+        "summary": "X213330.01 - 2022 DGW-CGW Uplink Upgrades (2021 GCR - BAAL) - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Draft",
+        "created": "2021-12-15T13:11:18.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2021-12-15T13:27:23.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3093",
+        "rpats": "X213578",
+        "summary": "X213578- Add new 10G Card to AGW05.FRONT - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-14T11:41:51.000-0500",
+        "info": [
+            {
+                "description": "X213578- Add new 10G Card to AGW05.FRONT",
+                "updated": "2021-12-21T11:51:06.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3038",
+        "rpats": "X213556.01",
+        "summary": "X213556.01 Reduce IPv4 full BGP table to default route only in Blink Network - V1.0",
+        "assignee": "Simon.Zhao@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-13T12:37:05.000-0500",
+        "info": [
+            {
+                "description": "X213556.01 Reduce IPv4 full BGP table to default route only in Blink Network",
+                "updated": "2022-02-23T09:16:14.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3021",
+        "rpats": "X211434.04",
+        "summary": "X211434.04 - 2021-DGW-CGW Uplink Upgrades NFSJ (GPON) - V1.0",
+        "assignee": "Diana.Chamorro@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-13T09:43:24.000-0500",
+        "info": [
+            {
+                "description": "None",
+                "updated": "2022-02-16T14:06:05.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-3016",
+        "rpats": "X213489",
+        "summary": "X213489 EON - ALU 7210 SAS SX Satellite Install at MGW01.MSSMONRR - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-10T19:05:11.000-0500",
+        "info": [
+            {
+                "description": "X213489 EON - ALU 7210 SAS SX Satellite Install at MGW01.MSSMONRR",
+                "updated": "2022-01-31T13:44:22.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-2987",
+        "rpats": "X213529",
+        "summary": "X213529 EON - ALU 7210 SAS SX Satellite Install at AGW05.AGNT - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-09T18:28:47.000-0500",
+        "info": [
+            {
+                "description": "X213529 EON - ALU 7210 SAS SX Satellite Install at AGW05.AGNT",
+                "updated": "2022-02-01T10:33:02.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-2948",
+        "rpats": "X213508",
+        "summary": "X213508 EON - ALU 7210 SAS SX Satellite Install at MGW01.MSSION83 - V1.0",
+        "assignee": "gbritton@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-09T13:40:12.000-0500",
+        "info": [
+            {
+                "description": "X213508 EON - ALU 7210 SAS SX Satellite Install at MGW01.MSSION83",
+                "updated": "2022-01-30T21:15:14.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-2839",
+        "rpats": "X213123.01",
+        "summary": "X213123.01 R4B 7360 Field Install at 1515 SISE RD, LONDON - V1.0",
+        "assignee": "Faize.Khan@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-07T12:59:07.000-0500",
+        "info": [
+            {
+                "description": "R4B 7360 Field Install at 1515 SISE RD, LONDON",
+                "updated": "2022-07-12T09:34:54.000-0400"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-2806",
+        "rpats": "X201674.05",
+        "summary": "Nokia 7210 SAS SX install at 975 WARWICK CRT, Burlington, ON (Burlington PHASE 2B) - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-04T17:23:35.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan describes the installation of the Nokia 7210 SAS-SX 64 port at 975 WARWICK CRT (C0816) in Burlington, ON.",
+                "updated": "2022-01-16T19:15:57.000-0500"
+            }
+        ]
+    },
+    {
+        "name": "NDOC-2804",
+        "rpats": "X201674.04",
+        "summary": "Nokia 7210 SAS SX install at 695 Regency Court, Burlington, ON (Burlington PHASE 2A) - V1.0",
+        "assignee": "Phillip.Brade@rci.rogers.com",
+        "status": "Published",
+        "created": "2021-12-04T16:52:33.000-0500",
+        "info": [
+            {
+                "description": "This engineering plan describes the installation of the Nokia 7210 SAS-SX 48 port Satellite at 3573 Wolfedale Rd Mississauga and the installation of the Nokia 7210 SAS-SX 64 port Satellite at 695 Regency Court (C0250) in Burlington, ON.",
+                "updated": "2022-01-16T19:08:13.000-0500"
+            }
+        ]
+    }
+]

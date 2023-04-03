@@ -1,0 +1,248 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<h2>Engineering Design Specifications</h2>
+<div className=bbb>
+<div className=ttt>
+  <dl style="font-size:16px; font-family: Verdana,sans-serif;">
+    
+    <div className="row">
+      <dt className=-md->EDS Type :</dt>
+      <dd className=-md->{{row["eds_type"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Project Name : </dt>
+      <dd className=-md->{{row["project_name"]}}</dd>
+    </div>
+  
+    <div className="row">
+      <dt className=-md->Authorized by : </dt>
+      <dd className=-md->{{row["authorized_by"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Planner Name : </dt>
+      <dd className=-md->{{row["planner"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Team Name : </dt>
+      <dd className=-md->{{row["team"]}}</dd>
+    </div>
+
+
+    <div className="row">
+      <dt className=-md->Contributors : </dt>
+      <dd className=-md->{{row["contributors"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Supporters : </dt>
+      <dd className=-md->{{row["supporters"]}}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Oracle :</dt>
+      <dd className=-md->{{row["oracle"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Project Number : </dt>
+      <dd className=-md->{{row["rpats"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Project Priority :  </dt>
+      <dd className=-md->{{row["priority"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Status : </dt>
+      <dd className=-md->{{row["status"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Release Date :</dt>
+      <dd className=-md->{{row["release_date"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Target in Service Date:  </dt>
+      <dd className=-md->{{row["target_date"]}}</dd>
+    </div>
+
+
+    <div className="row">
+      <dt className=-md->Revision Number : </dt>
+      <dd className=-md->{{row["revision"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Revision Date : </dt>
+      <dd className=-md->{{row["revision_date"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Checked By : </dt>
+      <dd className=-md->{{row["checked_by"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->CA Name : </dt>
+      <dd className=-md->{{row["ca_name"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->CA Number : </dt>
+      <dd className=-md->{{row["ca_number"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Coordinator Name : </dt>
+      <dd className=-md->{{row["coord_name"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Coordinator Team : </dt>
+      <dd className=-md->{{row["coord_team"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Coordinator Number : </dt>
+      <dd className=-md->{{row["coord_number"]}}</dd>
+    </div>
+
+    {%if row["eds_type"] == "TPIA - AE Bandwidth Update"%}
+
+    {% for eds in TPIA_AEupdate %}
+
+    <div className="row">
+      <dt className=-md->Client : </dt>
+      <dd className=-md->{{row["client"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Request Code : </dt>
+      <dd className=-md->{{ eds["request_code"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Solution Overview : </dt>
+      <dd className=-md->{{ eds["overview"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->CILI Code : </dt>
+      <dd className=-md->{{ eds["cili"] }}</dd>
+    </div>
+    
+    <div className="row">
+      <dt className=-md->Address :</dt>
+      <dd className=-md->{{eds["address"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Router : </dt>
+      <dd className=-md->{{ eds["router"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Interface : </dt>
+      <dd className=-md->{{ eds["interface"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Site :</dt>
+      <dd className=-md->{{eds["site"]}}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Port Name: </dt>
+      <dd className=-md->{{ eds["port"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->New Port : </dt>
+      <dd className=-md->{{ eds["port_new"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Current Bandwidth (MB) : </dt>
+      <dd className=-md->{{ eds["old_mb"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->New Bandwidth (MB) : </dt>
+      <dd className=-md->{{ eds["new_mb"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->New Bandwidth (GB) : </dt>
+      <dd className=-md->{{ eds["new_gig"] }}</dd>
+    </div>
+
+    <div className="row">
+      <dt className=-md->Number of Physical Links : </dt>
+      <dd className=-md->{{ eds["phys_links"] }}</dd>
+    </div>    
+
+    <div className="row">
+      <dt className=-md->Dependancy : </dt>
+      <dd className=-md->{{ eds["dependancy"] }}</dd>
+    </div> 
+
+    <br>
+    <br>
+
+    {% endfor %}
+    {%endif%}
+
+   <!--   <div className=www>
+      <div className=m-group col-m>
+        <button type="button" id = 'back_button' className= btn-block btn-lg  >Edit EDS</button>
+      </div>
+      <div className=m-group col-m>
+        <button type="button" id="submit_button" className= btn-block btn-lg >Generate New EDS</button>
+      </div>
+    </div> -->
+
+  </dl>
+
+
+<style>
+  body{
+    background-color:rgb(255, 255, 255); 
+    font-family: Verdana,sans-serif; 
+    font-size: 15px;
+  }
+  h2{
+    text-align:center; 
+    font-size:32px; 
+    font-family: Verdana,sans-serif; 
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+  }
+  .jum{
+    padding-left: 50px; 
+    padding-right:50px; 
+    padding-bottom: 10px; 
+    margin-top:25px;
+  }
+  h4 {
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+  }
+</style>
+
+{% endblock %}
+ 

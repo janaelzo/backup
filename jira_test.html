@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+<h1>Jira</h1>
+<div class="jumbotron jum">
+    <a href="{{ url_for ('dashboard.jira_report')}}">Download Xlsx </a>
+    <a href="{{ url_for ('dashboard.jira_all')}}">All </a>
+    <a href="{{ url_for ('dashboard.jira_published')}}">Published </a>
+    <a href="{{ url_for ('dashboard.jira_draft')}}">Draft </a>
+
+    <h3>Total Entries: {{ num_of_entries.length }}</h3>
+
+    <table>
+        <tr>
+            <th>Status</th>
+            <th>Name</th>
+            <th>Summary</th>
+            <th>Assignee</th>
+        </tr>
+        {% for item in jira %}
+        <tr>
+            <td>{{item.status}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.summary}}</td>
+            <td>{{item.assignee}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    
+</div>
+<style>
+    body{
+        background-color:rgb(255, 255, 255); 
+        font-family: Verdana,sans-serif;
+    }
+  
+    .head{
+        text-align: center;
+        background-color: rgba(221, 210, 205, 0.945);
+        margin-left: 60px;
+        margin-right: 60px;
+        opacity: 90%;
+        font-weight: bold;
+    }
+    h3,h4{
+      padding-left: 30px; 
+      margin-top: 30px; 
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+    p{
+        text-align: justify;
+        padding-left: 30px; 
+    }
+    .jum{
+    padding-left: 50px; 
+    padding-right:50px;  
+    margin-top:50px;
+    }
+
+    /* footer */
+    .footer {
+        color: #000000ec; 
+    }
+    .footer a { 
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    .footer__link {
+        font-weight: var(--fw-bold);
+    }
+    .footer__link:hover,
+    .social-list__link:hover {
+        opacity: .7;
+    }
+    .footer__link:hover {
+        text-decoration: underline;
+    }
+
+    table{
+        overflow-x: auto;
+        height: 60%;
+    }
+    </style>
+    <script>
+    
+    </script>
+{% endblock %}

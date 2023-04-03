@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+
+<h1 style="text-align: center; font-size: 30px"> Data Update</h1>
+
+
+<div class="jumbotron jum">
+  <div class="container">
+    
+    <div style="font-size: 16px" class="col-md-12" id="siteFieldDiv">
+        <h3 style="font-weight: bold; opacity: 90%;" >Add a new Site</h3>
+        <br>
+        <label for="site">Current Site Names &nbsp;&emsp;</label>
+        <select name="site" id="site">
+          {% for item in site %}
+          <option value="{{ item.SIDN }}">{{ item.SiteName }}</option>
+          {% endfor %} 
+        </select>
+        <br><br><br>
+        <div id="siteFieldUpdate">
+            <form action="{{ url_for('EDS.EDS_Data_Update_Push') }}" method="post">
+                <label for="newSite">New Site Name&nbsp;&nbsp;&emsp;</label>
+                <input type="text" name="newSiteToAdd" required><br>
+                <label for="newSite">New Site Address&nbsp;</label>
+                <input type="text" name="newSiteToAddAddress" required><br>
+                <label for="newSite">New Site Cili Code</label>
+                <input type="text" name="newSiteToAddCili" required><br><br>
+                <input type="submit" value="submit" class="btn btn-lg btn-primary">
+            </form>
+        </div>
+    </div>
+    
+    <div class="col-md-12">
+      <br><br><br>
+        <h3 style="font-weight: bold; opacity: 90%;">Part Templates</h3> <br>
+        <div style="font-size: 16px" id="bomcreation">
+            <form action="{{ url_for('EDS.update_parts_template') }}" method="post" id="bomform">
+                <label for="bomName">Template Name</label>
+                <input type="text" name="newBomName" required><br>
+                <label for="chasis">Chasis</label>
+                <select name="eds" id="eds">
+                    {% for item in eds %}
+                        {% if  ((item.EIDN == 0 or item.EIDN == 3 or item.EIDN == 4 or item.EIDN == 5 or item.EIDN == 6))%}
+                        <option value="{{ item.EIDN }}">{{ item.EDS }}</option>
+                        {% endif %}
+                    {% endfor %}
+                  </select>
+                  <br>
+                <label for="partslist">Parts</label>
+                <select name="parts" id="parts">
+                </select>
+                <label for="qty">QTY</label>
+                <select name="quantity" id="quantity">
+                    {% for item in quantity %}
+                    <option value="{{ item.QID }}">{{ item.Quantity }}</option>
+                    {% endfor %}
+                  </select>
+                  <br><br><br>
+
+                  <div class="form-group col-md-6" id="addFieldDiv">
+                    <button type="button" id ="add" class="btn btn-lg btn-primary">Add</button>
+                  </div>
+      
+                  <div class="form-group col-md-6" id="removeFieldDiv">
+                    <button type="button" id ="remove" class="btn btn-lg btn-primary">Remove</button>
+                  </div>
+      
+                  <div class="form-group col-md-12" id="partsTableFieldDiv">
+                    <table class = "table" id="parts_table">
+                      <thead>
+                        <tr>
+                          <th>
+                            Quantity
+                          </th>
+                          <th>
+                            Part
+                          </th>
+                          <th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr id="empty_row">
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                 </div>
+                  <input type="submit" value="submit Template">
+           </form>
+           <br><br>
+
+       </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById("eds").onchange = function () {
+var eds_id = this.value;
+
+    $.ajax({
+      type: 'POST',
+      data: JSON.stringify({
+        'eds_id': eds_id
+      }),
+      contentType: 'application/json; charset=utf-8',
+      url: "{{ url_for('EDS.get_parts_lists') }}",
+      success: function (data) {
+        console.log(data['parts'])
+        var parts = data['parts']
+        $('#parts').empty();
+        for (var i = 0; i < parts.length; i++) {
+          $('#parts').append('<option value = "' + parts[i]['CID'] + '">' + parts[i]['NAME'] + '</option>');
+        }
+        $('#parts>option:eq(0)').attr('selected', true);
+        $('#parts').trigger('change');
+      }
+    });
+}
+//////////////////////////////////////////////////// Button Functions
+$("#add").on("click",function(){
+    
+    var part_id = document.getElementById("parts").value
+    var part_object = document.getElementById("parts");
+    var part_value = part_object.options[part_object.selectedIndex].text;
+    var quantities2_id = document.getElementById("quantity").value
+    var quantities2_object = document.getElementById("quantity");
+    var quantities2_value = quantities2_object.options[quantities2_object.selectedIndex].text;
+    var partIndex = document.getElementById('parts_table').rows.length - 1;
+    $('#parts_table.table > tbody > tr:last').before('<tr>'+ '</td><td data-value = "'+ quantities2_id +'">' + quantities2_value + 
+      '</td>' + '</td><input type="hidden" name="partList' + partIndex +'" value="'+part_id+'"><input type="hidden" name="partQTY' + partIndex +'" value="'+quantities2_id+'"><td data-value = "'+part_id +'">' + part_value); 
+  });
+
+$('#remove').on('click', function(){
+    $('#parts_table.table >tbody> tr:last').prev().remove()
+})
+///////////////////////////////////////saving parts
+var part_list = [];
+var part_map = $('#parts_table tbody tr').map(function(){
+  var cells =  $(this).children();
+  part_list.push({
+    'QuantityTable' : cells.eq(0).text(),
+    'PartTable' : cells.eq(1).text(),
+    'CID' : cells.eq(1).data('value')
+  })
+  return null;
+})
+
+///////////////////////////////////////JSON
+document.getElementById('bomform').addEventListener("submit", save_template);
+function save_template(){
+    const fs = require('fs')
+    var numOfRows = document.getElementById('parts_table').rows.length - 1
+    var json_parts = {}
+    while(numOfRows != 0){
+        var to_append = {
+            "qty" : part_list[numOfRows].QuantityTable,
+            "part_id" : part_list[numOfRows].CID
+        };
+        json_parts.push(to_append)
+    }
+    //json format
+    const json_struct = {
+        "name" : template_name,
+        "chasis" : current_eidn,
+        "parts" : [
+            json_parts
+        ]
+    };
+    console.log(json_struct)
+    const data = JSON.stringify(json_struct);
+    window.alert(json_struct);
+    debugger;
+    fs.writeFile('test.json', data, (err) => {
+        if (err) {
+            throw err;
+        }
+    });
+
+    debugger;
+}
+
+
+</script>
+
+<style>
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 90%;
+  }
+
+  h3 {
+    text-align: center;
+    color: rgb(24, 0, 0);
+    text-decoration: underline
+  }
+
+  h4 {
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+  }
+
+  option {
+    margin-right: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+
+  hr.solid {
+  border-top: 3px solid #bbb;
+}
+</style>
+
+{% endblock %}
